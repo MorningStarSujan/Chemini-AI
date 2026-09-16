@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Hydrochloric Acid",
+        "formula": "HCl",
+        "uses": "Used in laboratory analysis, pH adjustment, and cleaning.",
+        "safety": "Dangerous",
+        "hazards": "Corrosive. Can cause severe skin burns and eye damage.",
+        "ppe": "Wear gloves, safety goggles, and a lab coat.",
+        "storage": "Store in a cool, dry, well-ventilated place.",
+        "green_alternative": "Use weaker organic acids when possible."
+    },
+    {
+        "name": "Sulfuric Acid",
+        "formula": "H₂SO₄",
+        "uses": "Used in titration, chemical synthesis, and battery experiments.",
+        "safety": "Highly Dangerous",
+        "hazards": "Highly corrosive. Reacts violently with water.",
+        "ppe": "Wear gloves, goggles, face shield, and lab coat.",
+        "storage": "Store in acid-resistant containers away from bases.",
+        "green_alternative": "Use safer dilute acids whenever suitable."
+    },
+    {
+        "name": "Ethanol",
+        "formula": "C₂H₅OH",
+        "uses": "Used as a solvent, disinfectant, and laboratory fuel.",
+        "safety": "Flammable",
+        "hazards": "Highly flammable liquid and vapor.",
+        "ppe": "Wear gloves and safety goggles.",
+        "storage": "Keep away from heat and open flames.",
+        "green_alternative": "Bioethanol."
+    },
+    {
+        "name": "Acetone",
+        "formula": "C₃H₆O",
+        "uses": "Used as a cleaning solvent and laboratory reagent.",
+        "safety": "Flammable",
+        "hazards": "May cause eye irritation and dizziness.",
+        "ppe": "Wear gloves and goggles.",
+        "storage": "Store tightly closed away from ignition sources.",
+        "green_alternative": "Ethyl Lactate."
+    }
+]

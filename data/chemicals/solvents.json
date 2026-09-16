@@ -1,0 +1,433 @@
+[
+  {
+    "id": 51,
+    "name": "Water",
+    "formula": "H₂O",
+    "aliases": ["Distilled Water"],
+    "category": "Solvent",
+    "description": "The most common laboratory solvent used in chemical reactions and solution preparation.",
+    "uses": [
+      "Solution preparation",
+      "Cleaning laboratory equipment",
+      "Chemical reactions"
+    ],
+    "hazards": [
+      "No significant hazard under normal laboratory conditions"
+    ],
+    "ppe": [
+      "Standard laboratory PPE"
+    ],
+    "storage": "Store in clean, sealed containers.",
+    "first_aid": "Not applicable under normal use.",
+    "disposal": "Can generally be disposed of through normal laboratory drainage if uncontaminated.",
+    "green_alternative": "Already considered the greenest solvent.",
+    "environmental_impact": "Minimal environmental impact.",
+    "signal_word": "None",
+    "ghs": []
+  },
+  {
+    "id": 52,
+    "name": "Ethanol",
+    "formula": "C₂H₅OH",
+    "aliases": ["Ethyl Alcohol"],
+    "category": "Solvent",
+    "description": "A widely used organic solvent in laboratories and pharmaceutical industries.",
+    "uses": [
+      "Laboratory solvent",
+      "Disinfectant",
+      "Chemical synthesis"
+    ],
+    "hazards": [
+      "Highly flammable",
+      "Eye irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in a flammable chemical cabinet away from ignition sources.",
+    "first_aid": "Move to fresh air if inhaled. Flush eyes with water if exposed.",
+    "disposal": "Dispose as flammable chemical waste.",
+    "green_alternative": "Bioethanol from renewable sources.",
+    "environmental_impact": "Biodegradable but flammable.",
+    "signal_word": "Danger",
+    "ghs": ["Flame"]
+  },
+  {
+    "id": 53,
+    "name": "Methanol",
+    "formula": "CH₃OH",
+    "aliases": ["Methyl Alcohol", "Wood Alcohol"],
+    "category": "Solvent",
+    "description": "A toxic organic solvent commonly used in laboratories and industry.",
+    "uses": [
+      "Laboratory solvent",
+      "Fuel",
+      "Chemical synthesis"
+    ],
+    "hazards": [
+      "Highly flammable",
+      "Toxic if swallowed",
+      "May cause blindness"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in a flammable storage cabinet.",
+    "first_aid": "Seek immediate medical attention after exposure.",
+    "disposal": "Dispose as hazardous chemical waste.",
+    "green_alternative": "Use ethanol where suitable.",
+    "environmental_impact": "Can contaminate water if improperly disposed.",
+    "signal_word": "Danger",
+    "ghs": ["Flame", "Skull and Crossbones", "Health Hazard"]
+  },
+  {
+    "id": 54,
+    "name": "Isopropyl Alcohol",
+    "formula": "C₃H₈O",
+    "aliases": ["IPA", "Isopropanol"],
+    "category": "Solvent",
+    "description": "A common laboratory cleaning solvent and disinfectant.",
+    "uses": [
+      "Cleaning laboratory equipment",
+      "Disinfectant",
+      "Chemical solvent"
+    ],
+    "hazards": [
+      "Highly flammable",
+      "Eye irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles"
+    ],
+    "storage": "Store away from heat and open flames.",
+    "first_aid": "Wash exposed area with water and move to fresh air if inhaled.",
+    "disposal": "Dispose as flammable waste.",
+    "green_alternative": "Bio-based isopropanol where available.",
+    "environmental_impact": "Biodegradable but flammable.",
+    "signal_word": "Danger",
+    "ghs": ["Flame"]
+  },
+  {
+    "id": 55,
+    "name": "Acetone",
+    "formula": "C₃H₆O",
+    "aliases": ["Propanone"],
+    "category": "Solvent",
+    "description": "A fast-evaporating solvent widely used for cleaning and chemical reactions.",
+    "uses": [
+      "Cleaning glassware",
+      "Chemical synthesis",
+      "Paint remover"
+    ],
+    "hazards": [
+      "Highly flammable",
+      "Eye irritation",
+      "May cause drowsiness"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles"
+    ],
+    "storage": "Store in a flammable cabinet.",
+    "first_aid": "Move to fresh air and flush eyes with water if exposed.",
+    "disposal": "Dispose as hazardous waste.",
+    "green_alternative": "Ethyl lactate where applicable.",
+    "environmental_impact": "Evaporates rapidly and is biodegradable.",
+    "signal_word": "Danger",
+    "ghs": ["Flame", "Exclamation Mark"]
+  },
+  {
+    "id": 56,
+    "name": "Benzene",
+    "formula": "C₆H₆",
+    "aliases": [],
+    "category": "Solvent",
+    "description": "An aromatic solvent used in laboratories but limited due to its carcinogenic nature.",
+    "uses": [
+      "Chemical synthesis",
+      "Research"
+    ],
+    "hazards": [
+      "Highly flammable",
+      "Carcinogenic",
+      "Toxic"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in a flammable chemical cabinet.",
+    "first_aid": "Seek immediate medical attention after exposure.",
+    "disposal": "Dispose as hazardous waste.",
+    "green_alternative": "Toluene or greener solvents where appropriate.",
+    "environmental_impact": "Hazardous to human health and the environment.",
+    "signal_word": "Danger",
+    "ghs": ["Flame", "Health Hazard"]
+  },
+  {
+    "id": 57,
+    "name": "Toluene",
+    "formula": "C₇H₈",
+    "aliases": ["Methylbenzene"],
+    "category": "Solvent",
+    "description": "An aromatic solvent commonly used in paints, coatings, and laboratories.",
+    "uses": [
+      "Laboratory solvent",
+      "Paint thinner",
+      "Chemical synthesis"
+    ],
+    "hazards": [
+      "Highly flammable",
+      "May cause dizziness"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store away from ignition sources.",
+    "first_aid": "Move to fresh air and seek medical advice if symptoms persist.",
+    "disposal": "Dispose as hazardous waste.",
+    "green_alternative": "Ethyl acetate where suitable.",
+    "environmental_impact": "Can pollute air and water if improperly handled.",
+    "signal_word": "Danger",
+    "ghs": ["Flame", "Health Hazard"]
+  },
+  {
+    "id": 58,
+    "name": "Hexane",
+    "formula": "C₆H₁₄",
+    "aliases": ["n-Hexane"],
+    "category": "Solvent",
+    "description": "A non-polar solvent used in extraction and laboratory analysis.",
+    "uses": [
+      "Extraction",
+      "Laboratory solvent",
+      "Chemical analysis"
+    ],
+    "hazards": [
+      "Highly flammable",
+      "May damage nerves after prolonged exposure"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in a flammable storage cabinet.",
+    "first_aid": "Move to fresh air and seek medical attention if symptoms develop.",
+    "disposal": "Dispose as hazardous waste.",
+    "green_alternative": "Heptane or bio-based solvents where practical.",
+    "environmental_impact": "Harmful to aquatic life if released in large amounts.",
+    "signal_word": "Danger",
+    "ghs": ["Flame", "Health Hazard"]
+  }
+,
+{
+  "id": 59,
+  "name": "Ethyl Acetate",
+  "formula": "C₄H₈O₂",
+  "aliases": [],
+  "category": "Solvent",
+  "description": "A colorless, fruity-smelling solvent widely used in laboratories, coatings, and pharmaceuticals.",
+  "uses": [
+    "Chemical synthesis",
+    "Extraction",
+    "Laboratory solvent"
+  ],
+  "hazards": [
+    "Highly flammable",
+    "Eye irritation"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store in a cool, well-ventilated flammable storage cabinet.",
+  "first_aid": "Move to fresh air and rinse eyes with water if exposed.",
+  "disposal": "Dispose as hazardous chemical waste.",
+  "green_alternative": "Considered a relatively greener organic solvent.",
+  "environmental_impact": "Biodegradable but contributes to VOC emissions.",
+  "signal_word": "Danger",
+  "ghs": ["Flame"]
+},
+{
+  "id": 60,
+  "name": "Chloroform",
+  "formula": "CHCl₃",
+  "aliases": ["Trichloromethane"],
+  "category": "Solvent",
+  "description": "A chlorinated solvent used in laboratories for extraction and research.",
+  "uses": [
+    "Extraction",
+    "Laboratory research",
+    "Chemical analysis"
+  ],
+  "hazards": [
+    "Toxic",
+    "Suspected carcinogen",
+    "Harmful if inhaled"
+  ],
+  "ppe": [
+    "Chemical-resistant gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store in tightly sealed amber bottles away from heat.",
+  "first_aid": "Move to fresh air immediately and seek medical attention.",
+  "disposal": "Dispose as hazardous halogenated solvent waste.",
+  "green_alternative": "Use ethyl acetate or other safer solvents when suitable.",
+  "environmental_impact": "Persistent environmental pollutant.",
+  "signal_word": "Danger",
+  "ghs": ["Health Hazard"]
+},
+{
+  "id": 61,
+  "name": "Diethyl Ether",
+  "formula": "C₄H₁₀O",
+  "aliases": ["Ether"],
+  "category": "Solvent",
+  "description": "A volatile solvent commonly used in extraction and organic synthesis.",
+  "uses": [
+    "Extraction",
+    "Organic synthesis",
+    "Laboratory solvent"
+  ],
+  "hazards": [
+    "Extremely flammable",
+    "Forms explosive peroxides"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store in tightly sealed containers away from light and ignition sources.",
+  "first_aid": "Move to fresh air and seek medical attention if necessary.",
+  "disposal": "Dispose as hazardous flammable waste.",
+  "green_alternative": "Use safer extraction solvents where possible.",
+  "environmental_impact": "VOC emission risk.",
+  "signal_word": "Danger",
+  "ghs": ["Flame"]
+},
+{
+  "id": 62,
+  "name": "Dimethyl Sulfoxide",
+  "formula": "C₂H₆OS",
+  "aliases": ["DMSO"],
+  "category": "Solvent",
+  "description": "A polar solvent widely used in biological and pharmaceutical research.",
+  "uses": [
+    "Biological research",
+    "Chemical synthesis",
+    "Laboratory solvent"
+  ],
+  "hazards": [
+    "May carry dissolved chemicals through the skin"
+  ],
+  "ppe": [
+    "Chemical-resistant gloves",
+    "Safety goggles"
+  ],
+  "storage": "Store tightly sealed at room temperature.",
+  "first_aid": "Wash exposed skin thoroughly with water.",
+  "disposal": "Dispose according to laboratory regulations.",
+  "green_alternative": "Often considered a safer polar solvent.",
+  "environmental_impact": "Low environmental impact when properly handled.",
+  "signal_word": "Warning",
+  "ghs": ["Exclamation Mark"]
+},
+{
+  "id": 63,
+  "name": "Acetonitrile",
+  "formula": "C₂H₃N",
+  "aliases": ["Methyl Cyanide"],
+  "category": "Solvent",
+  "description": "A polar solvent commonly used in chromatography and analytical laboratories.",
+  "uses": [
+    "HPLC",
+    "Chemical analysis",
+    "Organic synthesis"
+  ],
+  "hazards": [
+    "Highly flammable",
+    "Toxic if swallowed"
+  ],
+  "ppe": [
+    "Chemical-resistant gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store in a flammable storage cabinet.",
+  "first_aid": "Seek immediate medical attention after exposure.",
+  "disposal": "Dispose as hazardous chemical waste.",
+  "green_alternative": "Use ethanol when suitable.",
+  "environmental_impact": "Can contaminate water if improperly disposed.",
+  "signal_word": "Danger",
+  "ghs": ["Flame", "Health Hazard"]
+},
+{
+  "id": 64,
+  "name": "Cyclohexane",
+  "formula": "C₆H₁₂",
+  "aliases": [],
+  "category": "Solvent",
+  "description": "A non-polar solvent used in laboratories and industrial applications.",
+  "uses": [
+    "Chemical synthesis",
+    "Extraction",
+    "Laboratory solvent"
+  ],
+  "hazards": [
+    "Highly flammable",
+    "May cause dizziness"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles"
+  ],
+  "storage": "Store away from heat and open flames.",
+  "first_aid": "Move to fresh air if inhaled.",
+  "disposal": "Dispose as hazardous waste.",
+  "green_alternative": "Use bio-based solvents when possible.",
+  "environmental_impact": "Harmful to aquatic organisms.",
+  "signal_word": "Danger",
+  "ghs": ["Flame"]
+},
+{
+  "id": 65,
+  "name": "Xylene",
+  "formula": "C₈H₁₀",
+  "aliases": ["Dimethylbenzene"],
+  "category": "Solvent",
+  "description": "An aromatic solvent used in laboratories, paints, and histology.",
+  "uses": [
+    "Laboratory solvent",
+    "Histology",
+    "Paint thinner"
+  ],
+  "hazards": [
+    "Highly flammable",
+    "Harmful by inhalation"
+  ],
+  "ppe": [
+    "Chemical-resistant gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store in flammable storage cabinets.",
+  "first_aid": "Move to fresh air and seek medical attention if symptoms occur.",
+  "disposal": "Dispose as hazardous chemical waste.",
+  "green_alternative": "Use limonene-based or other greener solvents where appropriate.",
+  "environmental_impact": "Can pollute air and water if improperly handled.",
+  "signal_word": "Danger",
+  "ghs": ["Flame", "Health Hazard"]
+}
+]

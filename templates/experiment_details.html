@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <a href="/experiment" class="back-btn">
+        ← Back to Experiments
+    </a>
+
+    <div class="page-header">
+
+        <h1>🧪 {{ experiment.name }}</h1>
+
+        <p>{{ experiment.objective }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>🎯 Objective</h2>
+
+        <p>{{ experiment.objective }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>🧪 Chemicals</h2>
+
+        <ul>
+
+            {% for chemical in experiment.chemicals %}
+
+                <li>{{ chemical }}</li>
+
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>🔬 Equipment</h2>
+
+        <ul>
+
+            {% for item in experiment.equipment %}
+
+                <li>{{ item }}</li>
+
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>📋 Procedure</h2>
+
+        <ol>
+
+            {% for step in experiment.procedure %}
+
+                <li>{{ step }}</li>
+
+            {% endfor %}
+
+        </ol>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>⚠️ Safety Precautions</h2>
+
+        <ul>
+
+            {% for rule in experiment.safety %}
+
+                <li>{{ rule }}</li>
+
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>🌿 Green Chemistry Principle</h2>
+
+        <p>{{ experiment.green_principle }}</p>
+
+    </div>
+
+</div>
+
+{% endblock %}

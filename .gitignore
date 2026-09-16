@@ -1,0 +1,19 @@
+# Virtual Environment
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Environment Files
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db# Runtime Gemini usage telemetry
+data/gemini_usage.json

@@ -1,0 +1,360 @@
+[
+    {
+        "id": 1,
+        "name": "Acid-Base Titration",
+        "objective": "Determine the concentration of an acid using a standard base.",
+        "chemicals": ["Hydrochloric Acid", "Sodium Hydroxide", "Phenolphthalein"],
+        "equipment": ["Burette", "Pipette", "Conical Flask"],
+        "procedure": [
+            "Fill the burette with Sodium Hydroxide.",
+            "Take Hydrochloric Acid in the conical flask.",
+            "Add Phenolphthalein indicator.",
+            "Titrate until the solution becomes light pink."
+        ],
+        "safety": [
+            "Wear gloves and goggles.",
+            "Handle acids carefully."
+        ],
+        "green_principle": "Use the minimum amount of chemicals to reduce waste."
+    },
+    {
+        "id": 2,
+        "name": "Preparation of Buffer Solution",
+        "objective": "Prepare a buffer solution to maintain constant pH.",
+        "chemicals": ["Acetic Acid", "Sodium Acetate"],
+        "equipment": ["Beaker", "Glass Rod", "Measuring Cylinder"],
+        "procedure": [
+            "Measure the required chemicals.",
+            "Mix thoroughly.",
+            "Adjust the pH if necessary."
+        ],
+        "safety": [
+            "Wear gloves.",
+            "Avoid skin contact."
+        ],
+        "green_principle": "Reduce unnecessary chemical usage."
+    },
+    {
+        "id": 3,
+        "name": "Ethanol Distillation",
+        "objective": "Separate ethanol using simple distillation.",
+        "chemicals": ["Ethanol", "Water"],
+        "equipment": ["Distillation Flask", "Condenser", "Receiver Flask"],
+        "procedure": [
+            "Heat the ethanol-water mixture.",
+            "Collect condensed ethanol."
+        ],
+        "safety": [
+            "Keep away from flames.",
+            "Work in a ventilated area."
+        ],
+        "green_principle": "Recover solvents for reuse."
+    },
+    {
+        "id": 4,
+        "name": "Water Quality Test",
+        "objective": "Analyze the pH and clarity of water samples.",
+        "chemicals": ["Distilled Water", "Universal Indicator"],
+        "equipment": ["Test Tube", "pH Paper"],
+        "procedure": [
+            "Collect the sample.",
+            "Add indicator.",
+            "Compare the color with the chart."
+        ],
+        "safety": [
+            "Wear gloves.",
+            "Dispose of samples properly."
+        ],
+        "green_principle": "Prevent water contamination."
+    },
+    {
+        "id": 5,
+        "name": "Copper Sulfate Crystal Preparation",
+        "objective": "Prepare copper sulfate crystals by crystallization.",
+        "chemicals": ["Copper Sulfate", "Water"],
+        "equipment": ["Beaker", "Evaporating Dish", "Burner"],
+        "procedure": [
+            "Dissolve copper sulfate in water.",
+            "Heat gently.",
+            "Allow the solution to cool for crystal formation."
+        ],
+        "safety": [
+            "Wear gloves and goggles.",
+            "Avoid inhaling chemical dust."
+        ],
+        "green_principle": "Reuse excess solution whenever possible."
+    }
+,
+{
+    "id": 6,
+    "name": "Soap Preparation",
+    "objective": "Prepare soap by the saponification process.",
+    "chemicals": ["Vegetable Oil", "Sodium Hydroxide", "Water"],
+    "equipment": ["Beaker", "Glass Rod", "Heating Plate"],
+    "procedure": [
+        "Mix sodium hydroxide with water carefully.",
+        "Add vegetable oil gradually.",
+        "Stir continuously while heating gently.",
+        "Pour into a mold and allow it to solidify."
+    ],
+    "safety": [
+        "Wear gloves and safety goggles.",
+        "Handle sodium hydroxide carefully."
+    ],
+    "green_principle": "Use renewable vegetable oils to reduce environmental impact."
+},
+{
+    "id": 7,
+    "name": "Biodiesel Production",
+    "objective": "Produce biodiesel from vegetable oil using transesterification.",
+    "chemicals": ["Vegetable Oil", "Methanol", "Sodium Hydroxide"],
+    "equipment": ["Beaker", "Magnetic Stirrer", "Separating Funnel"],
+    "procedure": [
+        "Prepare the catalyst solution.",
+        "Mix with vegetable oil.",
+        "Stir for the required time.",
+        "Separate biodiesel from glycerol."
+    ],
+    "safety": [
+        "Avoid inhaling methanol vapors.",
+        "Wear gloves and goggles."
+    ],
+    "green_principle": "Promote renewable fuels to reduce fossil fuel dependence."
+},
+{
+    "id": 8,
+    "name": "Paper Chromatography",
+    "objective": "Separate pigments using paper chromatography.",
+    "chemicals": ["Food Dye", "Water", "Ethanol"],
+    "equipment": ["Chromatography Paper", "Beaker", "Capillary Tube"],
+    "procedure": [
+        "Place a small spot of dye on the paper.",
+        "Suspend the paper in solvent.",
+        "Allow the solvent to rise.",
+        "Observe separated pigments."
+    ],
+    "safety": [
+        "Handle solvents carefully.",
+        "Avoid open flames."
+    ],
+    "green_principle": "Use environmentally friendly solvents whenever possible."
+},
+{
+    "id": 9,
+    "name": "Electrolysis of Water",
+    "objective": "Separate water into hydrogen and oxygen gases.",
+    "chemicals": ["Water", "Dilute Sulfuric Acid"],
+    "equipment": ["Electrolysis Apparatus", "Power Supply", "Electrodes"],
+    "procedure": [
+        "Fill the apparatus with electrolyte solution.",
+        "Connect the power supply.",
+        "Observe gas evolution at both electrodes.",
+        "Collect the gases."
+    ],
+    "safety": [
+        "Keep away from sparks.",
+        "Use low-voltage power supply."
+    ],
+    "green_principle": "Demonstrate clean hydrogen production."
+},
+{
+    "id": 10,
+    "name": "Aspirin Synthesis",
+    "objective": "Prepare aspirin through esterification.",
+    "chemicals": ["Salicylic Acid", "Acetic Anhydride", "Sulfuric Acid"],
+    "equipment": ["Conical Flask", "Water Bath", "Filter Paper"],
+    "procedure": [
+        "Mix salicylic acid and acetic anhydride.",
+        "Add catalyst carefully.",
+        "Heat gently in a water bath.",
+        "Cool, filter and dry the crystals."
+    ],
+    "safety": [
+        "Wear gloves and goggles.",
+        "Avoid direct contact with acids."
+    ],
+    "green_principle": "Reduce waste by optimizing reaction efficiency."
+}
+,
+{
+    "id": 11,
+    "name": "Extraction of Essential Oils",
+    "objective": "Extract essential oils from plant materials using steam distillation.",
+    "chemicals": ["Mint Leaves", "Water"],
+    "equipment": ["Distillation Flask", "Condenser", "Receiver Flask"],
+    "procedure": [
+        "Place mint leaves and water into the distillation flask.",
+        "Heat the mixture gently.",
+        "Condense the vapors.",
+        "Collect the essential oil."
+    ],
+    "safety": [
+        "Handle hot equipment carefully.",
+        "Wear safety goggles."
+    ],
+    "green_principle": "Use natural plant materials and minimize solvent usage."
+},
+{
+    "id": 12,
+    "name": "Water Hardness Analysis",
+    "objective": "Determine the hardness of water using EDTA titration.",
+    "chemicals": ["EDTA Solution", "Buffer Solution", "Eriochrome Black T"],
+    "equipment": ["Burette", "Conical Flask", "Pipette"],
+    "procedure": [
+        "Measure the water sample.",
+        "Add buffer solution and indicator.",
+        "Titrate with EDTA until the color changes.",
+        "Calculate water hardness."
+    ],
+    "safety": [
+        "Wear gloves.",
+        "Avoid spilling chemicals."
+    ],
+    "green_principle": "Use precise reagent quantities to reduce waste."
+},
+{
+    "id": 13,
+    "name": "Preparation of Nylon Polymer",
+    "objective": "Demonstrate nylon formation through interfacial polymerization.",
+    "chemicals": ["Hexamethylenediamine", "Adipoyl Chloride"],
+    "equipment": ["Beaker", "Glass Rod", "Forceps"],
+    "procedure": [
+        "Prepare separate chemical solutions.",
+        "Carefully pour one solution over the other.",
+        "Pull the nylon thread using forceps.",
+        "Wash the polymer."
+    ],
+    "safety": [
+        "Wear gloves and goggles.",
+        "Avoid skin contact with reagents."
+    ],
+    "green_principle": "Perform the experiment using minimum reagent quantities."
+},
+{
+    "id": 14,
+    "name": "Vitamin C Estimation",
+    "objective": "Estimate Vitamin C content using iodine titration.",
+    "chemicals": ["Vitamin C Solution", "Iodine Solution", "Starch Indicator"],
+    "equipment": ["Burette", "Flask", "Pipette"],
+    "procedure": [
+        "Prepare the Vitamin C sample.",
+        "Add starch indicator.",
+        "Titrate with iodine solution.",
+        "Record the endpoint."
+    ],
+    "safety": [
+        "Wear gloves.",
+        "Avoid ingestion of reagents."
+    ],
+    "green_principle": "Use dilute solutions to minimize chemical waste."
+},
+{
+    "id": 15,
+    "name": "Activated Charcoal Preparation",
+    "objective": "Prepare activated charcoal from natural biomass.",
+    "chemicals": ["Coconut Shell", "Water"],
+    "equipment": ["Furnace", "Crucible", "Mortar and Pestle"],
+    "procedure": [
+        "Carbonize the biomass.",
+        "Cool the material.",
+        "Crush into fine powder.",
+        "Wash and dry the activated charcoal."
+    ],
+    "safety": [
+        "Handle hot materials carefully.",
+        "Wear a dust mask while grinding."
+    ],
+    "green_principle": "Convert agricultural waste into a useful product."
+}
+,
+{
+    "id": 16,
+    "name": "Corrosion Prevention Study",
+    "objective": "Investigate methods to reduce corrosion on iron surfaces.",
+    "chemicals": ["Iron Nails", "Salt Water", "Paint", "Oil"],
+    "equipment": ["Beakers", "Test Tubes", "Brush"],
+    "procedure": [
+        "Prepare iron samples with different protective coatings.",
+        "Immerse samples in salt water.",
+        "Observe corrosion over time.",
+        "Compare the effectiveness of each coating."
+    ],
+    "safety": [
+        "Wear gloves while handling chemicals.",
+        "Dispose of solutions properly."
+    ],
+    "green_principle": "Extend material lifespan to reduce waste and resource consumption."
+},
+{
+    "id": 17,
+    "name": "Food Dye Separation",
+    "objective": "Separate food coloring components using chromatography.",
+    "chemicals": ["Food Coloring", "Water", "Ethanol"],
+    "equipment": ["Chromatography Paper", "Beaker", "Capillary Tube"],
+    "procedure": [
+        "Apply food dye to chromatography paper.",
+        "Place the paper in the solvent.",
+        "Allow the solvent to rise.",
+        "Observe the separated colors."
+    ],
+    "safety": [
+        "Avoid contact with solvents.",
+        "Wear safety goggles."
+    ],
+    "green_principle": "Use small quantities of non-toxic dyes and solvents."
+},
+{
+    "id": 18,
+    "name": "Natural pH Indicator Preparation",
+    "objective": "Prepare a natural pH indicator using red cabbage extract.",
+    "chemicals": ["Red Cabbage", "Water"],
+    "equipment": ["Beaker", "Filter Paper", "Heating Plate"],
+    "procedure": [
+        "Chop the cabbage into small pieces.",
+        "Boil with water to extract the pigment.",
+        "Filter the solution.",
+        "Use the extract to test different solutions."
+    ],
+    "safety": [
+        "Handle hot liquids carefully.",
+        "Wear heat-resistant gloves."
+    ],
+    "green_principle": "Replace synthetic indicators with biodegradable natural materials."
+},
+{
+    "id": 19,
+    "name": "Battery Electrolyte Conductivity Test",
+    "objective": "Compare the electrical conductivity of different electrolyte solutions.",
+    "chemicals": ["Salt Solution", "Sugar Solution", "Distilled Water"],
+    "equipment": ["Conductivity Meter", "Beakers", "Electrodes"],
+    "procedure": [
+        "Prepare different electrolyte solutions.",
+        "Measure conductivity using the meter.",
+        "Record observations.",
+        "Compare the results."
+    ],
+    "safety": [
+        "Keep electrical equipment dry.",
+        "Avoid short circuits."
+    ],
+    "green_principle": "Encourage efficient energy experiments with minimal chemical usage."
+},
+{
+    "id": 20,
+    "name": "Eco-Friendly Detergent Preparation",
+    "objective": "Prepare a biodegradable cleaning solution using natural ingredients.",
+    "chemicals": ["Soap Flakes", "Baking Soda", "Water", "Lemon Extract"],
+    "equipment": ["Beaker", "Glass Rod", "Measuring Cylinder"],
+    "procedure": [
+        "Mix soap flakes with warm water.",
+        "Add baking soda and lemon extract.",
+        "Stir until completely dissolved.",
+        "Store the solution in a clean container."
+    ],
+    "safety": [
+        "Wear gloves during preparation.",
+        "Avoid contact with eyes."
+    ],
+    "green_principle": "Use biodegradable ingredients to reduce environmental pollution."
+}
+]

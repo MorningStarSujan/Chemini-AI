@@ -1,0 +1,106 @@
+{% extends "admin_base.html" %}
+
+{% block admin_content %}
+<section class="admin-page">
+    <header class="admin-page-header">
+        <div>
+            <span class="admin-eyebrow">ADMIN CONSOLE</span>
+            <h1>Admin Dashboard</h1>
+            <p>Monitor Chemini AI activity and response reliability from the last 30 days.</p>
+        </div>
+        <a class="admin-primary-action" href="/admin/history">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            Open History
+        </a>
+    </header>
+
+    <div class="admin-stat-grid">
+        <article class="admin-stat-card">
+            <div class="admin-stat-icon"><i class="fa-solid fa-list"></i></div>
+            <span>All Activity</span>
+            <strong>{{ total_count }}</strong>
+        </article>
+        <article class="admin-stat-card admin-stat-success">
+            <div class="admin-stat-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <span>Responded</span>
+            <strong>{{ response_count }}</strong>
+        </article>
+        <article class="admin-stat-card admin-stat-error">
+            <div class="admin-stat-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
+            <span>Not Responded</span>
+            <strong>{{ error_count }}</strong>
+        </article>
+    </div>
+
+
+    <section class="admin-ai-usage-card">
+        <div class="admin-ai-usage-header">
+            <div>
+                <span class="admin-eyebrow">GEMINI API</span>
+                <h2><i class="fa-solid fa-robot"></i> AI Usage & Status</h2>
+                <p>Usage recorded from Gemini requests made by this Chemini AI server.</p>
+            </div>
+            <span class="admin-ai-status admin-ai-status-{{ ai_status_class }}">
+                <i class="fa-solid fa-circle"></i> {{ ai_status }}
+            </span>
+        </div>
+
+        <div class="admin-ai-metrics">
+            <div>
+                <span>Model</span>
+                <strong>{{ ai_usage.model }}</strong>
+            </div>
+            <div>
+                <span>Requests today</span>
+                <strong>{{ ai_usage.requests }}</strong>
+            </div>
+            <div>
+                <span>Successful</span>
+                <strong>{{ ai_usage.successful_requests }}</strong>
+            </div>
+            <div>
+                <span>Failed</span>
+                <strong>{{ ai_usage.failed_requests }}</strong>
+            </div>
+            <div>
+                <span>Input tokens</span>
+                <strong>{{ "{:,}".format(ai_usage.input_tokens) }}</strong>
+            </div>
+            <div>
+                <span>Output tokens</span>
+                <strong>{{ "{:,}".format(ai_usage.output_tokens) }}</strong>
+            </div>
+            <div>
+                <span>Total tokens</span>
+                <strong>{{ "{:,}".format(ai_usage.total_tokens) }}</strong>
+            </div>
+            <div>
+                <span>Last request</span>
+                <strong>{{ ai_usage.last_request_at or "—" }}</strong>
+            </div>
+        </div>
+
+        <div class="admin-ai-notice">
+            <i class="fa-solid fa-circle-info"></i>
+            <div>
+                <strong>About quota accuracy</strong>
+                <p>These counters are exact for requests and token usage returned to this server by Gemini. Google’s live remaining RPM/TPM/RPD quota is enforced server-side and is not exposed as a reliable remaining-quota value through the Gemini API, so Chemini AI does not invent a percentage or remaining number.</p>
+                <a href="https://aistudio.google.com/usage" target="_blank" rel="noopener noreferrer">
+                    Open Google AI Studio Usage <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="admin-info-card">
+        <div class="admin-info-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <div>
+            <h2>Administrator Access</h2>
+            <p>
+                This console can review retained activity from users and the administrator.
+                History is automatically removed after 30 days.
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}

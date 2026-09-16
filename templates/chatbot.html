@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <div class="page-header">
+
+        <h1>🤖 AI Assistant</h1>
+
+        <p>
+            Ask chemistry questions, laboratory safety queries,
+            or green chemistry topics.
+        </p>
+
+    </div>
+
+    <div class="chat-container">
+
+        <div id="chat-history" class="chat-history" style="display: none;"></div>
+
+        <div id="welcome-screen" class="welcome-screen">
+
+            <div class="welcome-layout">
+
+                <div class="Chemai-side">
+
+                    <img
+                        src="{{ url_for('static', filename='images/mascot/idle/chemai_idle.png') }}"
+                        alt="Chemai"
+                        class="Chemai-idle">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <form id="chat-form">
+
+        <div class="chat-input-wrapper">
+
+            <textarea
+                id="question"
+                name="question"
+                rows="1"
+                placeholder="Ask a chemistry question..."
+                required></textarea>
+
+            <button
+                type="submit"
+                class="send-btn">
+
+                ➜
+
+            </button>
+
+        </div>
+
+    </form>
+
+    </div>
+
+</div>
+
+{% endblock %}

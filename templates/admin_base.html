@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="admin-shell">
+    <aside class="admin-sidebar">
+        <div class="admin-brand">
+            <div class="admin-brand-icon"><i class="fa-solid fa-flask"></i></div>
+            <div>
+                <strong>Chemini AI</strong>
+                <span>Admin Console</span>
+            </div>
+        </div>
+
+        <nav class="admin-nav" aria-label="Admin navigation">
+            <a href="/admin" class="{% if request.path == '/admin' %}active{% endif %}">
+                <i class="fa-solid fa-chart-line"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="/admin/history" class="{% if request.path.startswith('/admin/history') %}active{% endif %}">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <span>History</span>
+            </a>
+        </nav>
+
+        <div class="admin-sidebar-bottom">
+            <a href="/dashboard" class="admin-back-link">
+                <i class="fa-solid fa-arrow-left"></i>
+                <span>Back to Chemini AI</span>
+            </a>
+            <form method="post" action="/admin/logout">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+                <button type="submit" class="admin-logout-button">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Logout</span>
+                </button>
+            </form>
+        </div>
+    </aside>
+
+    <main class="admin-main">
+        {% block admin_content %}{% endblock %}
+    </main>
+</div>
+{% endblock %}

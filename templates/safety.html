@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <div class="page-header">
+
+        <h1>🛡️ Safety Checker</h1>
+
+        <p>
+            View laboratory safety information for available chemicals.
+        </p>
+
+    </div>
+
+    <div class="experiment-grid">
+
+        {% for chemical in chemicals %}
+
+        <div class="experiment-card">
+
+            <h2>{{ chemical.name }}</h2>
+
+            <p>
+                {{ chemical.safety }}
+            </p>
+
+            <a href="/safety/{{ loop.index0 }}">
+                View Safety →
+            </a>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+<!-- Laboratory Safety Rules -->
+
+<div class="page-header" style="margin-top:40px;">
+
+    <h1>📋 Laboratory Safety Rules</h1>
+
+    <p>
+        General laboratory safety guidelines for safe chemical handling.
+    </p>
+
+</div>
+
+<div class="experiment-grid">
+
+    {% for rule in safety_rules %}
+
+    <div class="experiment-card">
+
+        <h2>{{ rule.title }}</h2>
+
+        <p>
+            {{ rule.description }}
+        </p>
+
+        <p>
+            <strong>Category:</strong> {{ rule.category }}
+        </p>
+
+        <a href="/safety-rule/{{ rule.id }}">
+            View Rule →
+        </a>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+</div>
+
+{% endblock %}

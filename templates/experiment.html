@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <div class="page-header">
+
+        <h1>🧪 Experiment Guide</h1>
+
+        <p>
+            Explore laboratory experiments with objectives,
+            chemicals, procedures, safety precautions,
+            and green chemistry principles.
+        </p>
+
+    </div>
+
+    <div class="experiment-grid">
+
+        {% for experiment in experiments %}
+
+        <div class="experiment-card">
+
+            <h2>{{ experiment.name }}</h2>
+
+            <p>
+                {{ experiment.objective }}
+            </p>
+            
+            <a href="/experiment/{{ experiment.id }}">
+                View Details →
+            </a>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+{% endblock %}

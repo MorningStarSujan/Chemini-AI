@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <a href="/safety" class="back-btn">
+        ← Back to Safety
+    </a>
+
+    <div class="page-header">
+
+        <h1>🛡️ {{ chemical.name }}</h1>
+
+        <p>{{ chemical.formula }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>⚠️ Safety Level</h2>
+
+        <p>{{ chemical.safety }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>☣️ Hazards</h2>
+
+        <p>{{ chemical.hazards }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>🧤 Personal Protective Equipment (PPE)</h2>
+
+        <p>{{ chemical.ppe }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>📦 Storage</h2>
+
+        <p>{{ chemical.storage }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>🌿 Green Alternative</h2>
+
+        <p>{{ chemical.green_alternative }}</p>
+
+    </div>
+
+</div>
+
+{% endblock %}

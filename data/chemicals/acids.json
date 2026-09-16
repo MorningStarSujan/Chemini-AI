@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "name": "Hydrochloric Acid",
+    "formula": "HCl",
+    "aliases": ["Hydrogen Chloride", "Muriatic Acid"],
+    "category": "Acid",
+    "description": "A strong mineral acid widely used in laboratories, industry, and chemical analysis.",
+    "uses": [
+      "Laboratory analysis",
+      "pH adjustment",
+      "Metal cleaning"
+    ],
+    "hazards": [
+      "Corrosive",
+      "Causes severe skin burns",
+      "Causes serious eye damage"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in corrosion-resistant containers in a cool, dry, well-ventilated area away from bases.",
+    "first_aid": "Flush affected area with water for at least 15 minutes and seek immediate medical attention.",
+    "disposal": "Dispose of as hazardous waste according to local regulations after proper neutralization where appropriate.",
+    "green_alternative": "Citric acid for suitable low-strength applications.",
+    "environmental_impact": "Can significantly lower the pH of water bodies if released untreated.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion"]
+  },
+  {
+    "id": 2,
+    "name": "Sulfuric Acid",
+    "formula": "H₂SO₄",
+    "aliases": ["Oil of Vitriol"],
+    "category": "Acid",
+    "description": "A highly corrosive strong mineral acid used in laboratories, fertilizer production, and batteries.",
+    "uses": [
+      "Chemical synthesis",
+      "Titration",
+      "Battery electrolyte"
+    ],
+    "hazards": [
+      "Highly corrosive",
+      "Severe skin burns",
+      "Violent reaction with water"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Face shield",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in acid-resistant containers away from water, bases, and organic materials.",
+    "first_aid": "Immediately flush with plenty of water for at least 15 minutes and obtain medical attention.",
+    "disposal": "Dispose of as hazardous waste following approved neutralization procedures.",
+    "green_alternative": "Use dilute acids whenever practical.",
+    "environmental_impact": "Can acidify soil and water, harming ecosystems.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion"]
+  },
+  {
+    "id": 3,
+    "name": "Nitric Acid",
+    "formula": "HNO₃",
+    "aliases": ["Aqua Fortis"],
+    "category": "Acid",
+    "description": "A strong oxidizing acid commonly used in laboratories and fertilizer manufacturing.",
+    "uses": [
+      "Chemical synthesis",
+      "Metal etching",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "Strong oxidizer",
+      "Corrosive",
+      "Toxic fumes"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Face shield",
+      "Lab coat"
+    ],
+    "storage": "Store away from organic materials, reducing agents, and heat.",
+    "first_aid": "Flush exposed areas with water for at least 15 minutes and seek emergency medical care.",
+    "disposal": "Dispose through approved hazardous waste procedures.",
+    "green_alternative": "Use less hazardous oxidizing agents where suitable.",
+    "environmental_impact": "Can contribute to water pollution and acidification.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion", "Oxidizer"]
+  },
+  {
+    "id": 4,
+    "name": "Acetic Acid",
+    "formula": "CH₃COOH",
+    "aliases": ["Ethanoic Acid"],
+    "category": "Acid",
+    "description": "A weak organic acid commonly found in vinegar and laboratory applications.",
+    "uses": [
+      "Buffer preparation",
+      "Laboratory reagent",
+      "Chemical synthesis"
+    ],
+    "hazards": [
+      "Eye irritation",
+      "Skin irritation",
+      "Concentrated forms are corrosive"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store tightly sealed away from oxidizing agents.",
+    "first_aid": "Wash exposed area thoroughly with water and seek medical advice if irritation persists.",
+    "disposal": "Dispose according to laboratory chemical waste procedures.",
+    "green_alternative": "Dilute vinegar for suitable educational demonstrations.",
+    "environmental_impact": "Low environmental impact when properly handled.",
+    "signal_word": "Warning",
+    "ghs": ["Exclamation Mark"]
+  },
+  {
+    "id": 5,
+    "name": "Citric Acid",
+    "formula": "C₆H₈O₇",
+    "aliases": ["2-Hydroxypropane-1,2,3-tricarboxylic Acid"],
+    "category": "Acid",
+    "description": "A naturally occurring weak organic acid widely used in green chemistry.",
+    "uses": [
+      "Cleaning agent",
+      "Buffer preparation",
+      "Food additive"
+    ],
+    "hazards": [
+      "May cause mild eye irritation"
+    ],
+    "ppe": [
+      "Safety goggles",
+      "Gloves"
+    ],
+    "storage": "Store in a cool, dry place in a tightly closed container.",
+    "first_aid": "Rinse eyes or skin with water if irritation occurs.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Already considered a green alternative for many acid applications.",
+    "environmental_impact": "Biodegradable with low environmental impact.",
+    "signal_word": "Warning",
+    "ghs": ["Exclamation Mark"]
+  },
+  {
+    "id": 6,
+    "name": "Phosphoric Acid",
+    "formula": "H₃PO₄",
+    "aliases": ["Orthophosphoric Acid"],
+    "category": "Acid",
+    "description": "A moderately strong acid used in laboratories, fertilizers, and food processing.",
+    "uses": [
+      "Laboratory reagent",
+      "Rust removal",
+      "Fertilizer production"
+    ],
+    "hazards": [
+      "Skin irritation",
+      "Eye irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Keep container tightly closed in a cool, ventilated area.",
+    "first_aid": "Flush with water for at least 15 minutes if exposed.",
+    "disposal": "Dispose according to hazardous waste guidelines.",
+    "green_alternative": "Citric acid for mild cleaning applications.",
+    "environmental_impact": "Excess release may contribute to algal blooms.",
+    "signal_word": "Warning",
+    "ghs": ["Exclamation Mark"]
+  },
+  {
+    "id": 7,
+    "name": "Formic Acid",
+    "formula": "HCOOH",
+    "aliases": ["Methanoic Acid"],
+    "category": "Acid",
+    "description": "A naturally occurring organic acid found in ant venom and used in laboratories.",
+    "uses": [
+      "Chemical synthesis",
+      "Leather processing",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "Corrosive",
+      "Skin burns",
+      "Eye damage"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store away from oxidizing agents and heat.",
+    "first_aid": "Flush affected area with water and seek medical attention.",
+    "disposal": "Dispose through approved hazardous waste disposal.",
+    "green_alternative": "Use less hazardous organic acids when suitable.",
+    "environmental_impact": "Can be harmful to aquatic life at high concentrations.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion"]
+  },
+  {
+    "id": 8,
+    "name": "Oxalic Acid",
+    "formula": "H₂C₂O₄",
+    "aliases": ["Ethanedioic Acid"],
+    "category": "Acid",
+    "description": "An organic acid used in cleaning, bleaching, and laboratory applications.",
+    "uses": [
+      "Rust removal",
+      "Cleaning agent",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "Toxic if swallowed",
+      "Eye damage",
+      "Skin irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in a cool, dry location away from incompatible materials.",
+    "first_aid": "Flush with water and obtain medical attention immediately.",
+    "disposal": "Dispose as hazardous chemical waste.",
+    "green_alternative": "Citric acid for light cleaning tasks.",
+    "environmental_impact": "May affect aquatic organisms if improperly released.",
+    "signal_word": "Danger",
+    "ghs": ["Skull and Crossbones", "Exclamation Mark"]
+  },
+  {
+    "id": 9,
+    "name": "Carbonic Acid",
+    "formula": "H₂CO₃",
+    "aliases": ["Dihydrogen Carbonate"],
+    "category": "Acid",
+    "description": "A weak acid formed when carbon dioxide dissolves in water.",
+    "uses": [
+      "Carbonated beverages",
+      "Laboratory studies",
+      "pH buffering"
+    ],
+    "hazards": [
+      "Generally low hazard"
+    ],
+    "ppe": [
+      "Standard laboratory PPE"
+    ],
+    "storage": "Usually prepared fresh in solution.",
+    "first_aid": "Follow normal laboratory first-aid procedures.",
+    "disposal": "Dispose according to local laboratory regulations.",
+    "green_alternative": "Already environmentally friendly in most applications.",
+    "environmental_impact": "Naturally present in many water systems.",
+    "signal_word": "None",
+    "ghs": []
+  },
+  {
+    "id": 10,
+    "name": "Perchloric Acid",
+    "formula": "HClO₄",
+    "aliases": [],
+    "category": "Acid",
+    "description": "A very strong acid and powerful oxidizer requiring specialized handling.",
+    "uses": [
+      "Analytical chemistry",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "Powerful oxidizer",
+      "Explosion risk",
+      "Highly corrosive"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Face shield",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store separately from combustible materials and reducing agents in approved containers.",
+    "first_aid": "Flush with water immediately and seek emergency medical attention.",
+    "disposal": "Dispose only through authorized hazardous waste procedures.",
+    "green_alternative": "Use safer analytical reagents whenever possible.",
+    "environmental_impact": "Can cause severe environmental contamination if released.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion", "Oxidizer"]
+  }
+]

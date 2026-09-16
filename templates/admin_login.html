@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="admin-login-page">
+    <div class="admin-login-card">
+        <a href="/dashboard" class="admin-login-back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Back to Chemini AI
+        </a>
+
+        <div class="admin-login-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+        </div>
+
+        <h1>Admin Login</h1>
+        <p>Authorized administration access only.</p>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="admin-login-messages" role="alert">
+                    {% for category, message in messages %}
+                        <div class="admin-login-message {{ category }}">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        <form method="post" class="admin-login-form" autocomplete="on">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+
+            <label for="admin-username">Admin ID</label>
+            <div class="admin-input-wrap">
+                <i class="fa-solid fa-user-shield"></i>
+                <input id="admin-username" name="username" type="text" autocomplete="username" required maxlength="120">
+            </div>
+
+            <label for="admin-password">Password</label>
+            <div class="admin-input-wrap">
+                <i class="fa-solid fa-lock"></i>
+                <input id="admin-password" name="password" type="password" autocomplete="current-password" required maxlength="256">
+            </div>
+
+            <button type="submit" class="admin-login-submit">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Login
+            </button>
+        </form>
+
+        <a href="{{ url_for('admin_forgot_password') }}" class="admin-forgot-link">
+            <i class="fa-solid fa-key"></i>
+            Forgot Password?
+        </a>
+
+        <p class="admin-login-security-note">
+            <i class="fa-solid fa-lock"></i>
+            Admin credentials are validated on the server.
+        </p>
+    </div>
+</div>
+{% endblock %}

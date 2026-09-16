@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Wear Personal Protective Equipment (PPE)",
+    "category": "Personal Safety",
+    "description": "Always wear a lab coat, safety goggles, gloves, and closed-toe shoes while working in the laboratory.",
+    "prevention": "Inspect PPE before use and replace damaged equipment immediately.",
+    "emergency": "If exposed to chemicals, remove contaminated clothing and rinse the affected area with water.",
+    "icon": "🥽"
+  },
+  {
+    "id": 2,
+    "title": "Read Chemical Labels Carefully",
+    "category": "Chemical Handling",
+    "description": "Read labels and Safety Data Sheets (SDS) before using any chemical.",
+    "prevention": "Verify the chemical name, concentration, hazards, and storage instructions.",
+    "emergency": "Stop using unidentified chemicals and report them to the lab supervisor.",
+    "icon": "🏷️"
+  },
+  {
+    "id": 3,
+    "title": "Handle Chemicals Carefully",
+    "category": "Chemical Handling",
+    "description": "Never smell or taste chemicals directly. Use proper handling techniques and laboratory tools.",
+    "prevention": "Use fume hoods when working with volatile or toxic substances.",
+    "emergency": "If inhalation occurs, move to fresh air immediately and seek medical attention if needed.",
+    "icon": "🧪"
+  },
+  {
+    "id": 4,
+    "title": "Proper Chemical Storage",
+    "category": "Storage",
+    "description": "Store chemicals according to their compatibility and hazard classification.",
+    "prevention": "Keep flammable, corrosive, oxidizing, and toxic chemicals in designated storage areas.",
+    "emergency": "Isolate leaking containers and inform laboratory personnel immediately.",
+    "icon": "🧴"
+  },
+  {
+    "id": 5,
+    "title": "Safe Waste Disposal",
+    "category": "Waste Management",
+    "description": "Dispose of chemical waste only in designated waste containers.",
+    "prevention": "Never pour hazardous chemicals into sinks unless instructed.",
+    "emergency": "Contain spills using approved spill kits and report the incident.",
+    "icon": "♻️"
+  },
+  {
+    "id": 6,
+    "title": "Fire Safety",
+    "category": "Emergency",
+    "description": "Keep flammable materials away from ignition sources and know the location of fire extinguishers.",
+    "prevention": "Avoid open flames near flammable solvents.",
+    "emergency": "Activate the fire alarm, use the correct extinguisher if safe, and evacuate if necessary.",
+    "icon": "🔥"
+  },
+  {
+    "id": 7,
+    "title": "Know Emergency Equipment",
+    "category": "Emergency",
+    "description": "Be familiar with eyewash stations, safety showers, fire blankets, and first aid kits.",
+    "prevention": "Locate emergency equipment before starting any experiment.",
+    "emergency": "Use emergency equipment immediately following an accident.",
+    "icon": "🚿"
+  },
+  {
+    "id": 8,
+    "title": "Keep the Laboratory Clean",
+    "category": "Housekeeping",
+    "description": "Maintain a clean and organized workspace to reduce accidents.",
+    "prevention": "Clean spills immediately and keep work areas free from unnecessary materials.",
+    "emergency": "Report hazardous spills that cannot be cleaned safely.",
+    "icon": "🧹"
+  },
+  {
+    "id": 9,
+    "title": "No Eating or Drinking",
+    "category": "General Rules",
+    "description": "Eating, drinking, and smoking are prohibited inside the laboratory.",
+    "prevention": "Keep food and beverages outside laboratory areas.",
+    "emergency": "Discard contaminated food immediately.",
+    "icon": "🚫"
+  },
+  {
+    "id": 10,
+    "title": "Report Accidents Immediately",
+    "category": "Emergency",
+    "description": "Report every accident, spill, or injury immediately, regardless of its severity.",
+    "prevention": "Inform the laboratory supervisor as soon as an incident occurs.",
+    "emergency": "Follow emergency response procedures and seek medical assistance if required.",
+    "icon": "📢"
+  }
+,
+{
+  "id": 11,
+  "title": "Use Fume Hoods Properly",
+  "category": "Ventilation",
+  "description": "Always use a fume hood when handling volatile, toxic, or hazardous chemicals that release harmful vapors.",
+  "prevention": "Keep the sash at the recommended height and avoid blocking airflow.",
+  "emergency": "If exposed to hazardous fumes, move to fresh air immediately and seek medical assistance.",
+  "icon": "🌬️"
+},
+{
+  "id": 12,
+  "title": "Inspect Glassware Before Use",
+  "category": "Equipment Safety",
+  "description": "Check all laboratory glassware for cracks, chips, or damage before use.",
+  "prevention": "Replace damaged glassware immediately to prevent breakage.",
+  "emergency": "Clean broken glass using a brush and dustpan, never with bare hands.",
+  "icon": "🧫"
+},
+{
+  "id": 13,
+  "title": "Electrical Equipment Safety",
+  "category": "Electrical Safety",
+  "description": "Inspect electrical equipment before use and keep it away from water or wet surfaces.",
+  "prevention": "Switch off equipment before connecting or disconnecting power.",
+  "emergency": "Disconnect power immediately and report damaged equipment.",
+  "icon": "⚡"
+},
+{
+  "id": 14,
+  "title": "Gas Cylinder Handling",
+  "category": "Compressed Gases",
+  "description": "Secure gas cylinders upright using chains or straps and transport them with approved trolleys.",
+  "prevention": "Always close the valve after use and use the correct pressure regulator.",
+  "emergency": "If a gas leak is suspected, evacuate the area and notify laboratory personnel immediately.",
+  "icon": "🛢️"
+},
+{
+  "id": 15,
+  "title": "Prevent Cross-Contamination",
+  "category": "Chemical Handling",
+  "description": "Use clean tools and containers for each chemical to avoid contamination.",
+  "prevention": "Never return unused chemicals to the original container.",
+  "emergency": "Dispose of contaminated chemicals following laboratory waste procedures.",
+  "icon": "🔬"
+},
+{
+  "id": 16,
+  "title": "Emergency Evacuation Procedure",
+  "category": "Emergency",
+  "description": "Know the emergency exits and assembly points before beginning laboratory work.",
+  "prevention": "Keep exit pathways clear at all times.",
+  "emergency": "Leave the laboratory calmly and follow staff instructions during emergencies.",
+  "icon": "🚪"
+},
+{
+  "id": 17,
+  "title": "Proper Use of Laboratory Instruments",
+  "category": "Equipment Safety",
+  "description": "Operate laboratory instruments only after receiving proper training.",
+  "prevention": "Read the operating instructions before using any equipment.",
+  "emergency": "Switch off malfunctioning equipment and report it immediately.",
+  "icon": "⚙️"
+},
+{
+  "id": 18,
+  "title": "Laboratory First Aid Awareness",
+  "category": "First Aid",
+  "description": "Know the location of first aid kits and basic first aid procedures before starting work.",
+  "prevention": "Ensure first aid kits remain fully stocked and easily accessible.",
+  "emergency": "Provide first aid if trained and contact medical personnel immediately.",
+  "icon": "⛑️"
+},
+{
+  "id": 19,
+  "title": "Maintain Proper Laboratory Ventilation",
+  "category": "Ventilation",
+  "description": "Ensure the laboratory ventilation system is functioning properly before beginning experiments.",
+  "prevention": "Do not block air vents or ventilation openings.",
+  "emergency": "Stop experiments if ventilation fails and leave the area if hazardous vapors are present.",
+  "icon": "💨"
+},
+{
+  "id": 20,
+  "title": "Practice Safe Chemical Transportation",
+  "category": "Chemical Handling",
+  "description": "Transport chemicals using appropriate containers and secondary containment when necessary.",
+  "prevention": "Carry only small quantities and keep containers tightly closed.",
+  "emergency": "If a spill occurs during transport, isolate the area and follow the spill response procedure.",
+  "icon": "🚚"
+}]

@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="splash-screen">
+
+    <!-- Animated Molecule Background -->
+
+    <div class="molecule-bg">
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+
+    <div class="bg-circle circle1"></div>
+    <div class="bg-circle circle2"></div>
+
+    <!-- Logo -->
+
+    <div class="logo-wrapper">
+
+        <div class="logo-ring"></div>
+
+        <div class="logo-circle">
+
+            <span class="logo-icon">🧪</span>
+
+        </div>
+
+    </div>
+
+    <!-- Project Name -->
+
+    <h1 class="project-title">
+
+        Green Chemistry
+        <span>Lab Assistant</span>
+
+    </h1>
+
+    <!-- Subtitle -->
+
+    <p class="subtitle">
+
+        AI-Powered Sustainable Laboratory
+
+    </p>
+
+    <!-- Loading -->
+
+    <div class="loading-text">
+        LOADING <span id="loadingPercent">0%</span>
+    </div>
+    
+    <div class="loader">
+
+        <div class="progress"></div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <p>Designed & Developed by</p>
+
+        <h2>AI VISIONARIES</h2>
+
+    </div>
+
+</div>
+
+<script>
+
+const percent = document.getElementById("loadingPercent");
+const splash = document.querySelector(".splash-screen");
+
+const duration = 5000; // Same as CSS animation (5 seconds)
+const startTime = Date.now();
+
+const timer = setInterval(() => {
+
+    const elapsed = Date.now() - startTime;
+
+    let value = Math.min(Math.floor((elapsed / duration) * 100), 100);
+
+    percent.textContent = value + "%";
+
+    if (value >= 100) {
+
+        clearInterval(timer);
+
+        splash.classList.add("fade-out");
+
+        setTimeout(() => {
+
+            window.location.href = "/dashboard";
+
+        }, 600);
+
+    }
+
+}, 16);
+
+</script>
+
+{% endblock %}

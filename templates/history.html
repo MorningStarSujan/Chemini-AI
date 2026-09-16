@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container history-page">
+
+    <div class="page-header history-header">
+
+        <div>
+            <h1>📜 History</h1>
+            <p>
+                Your meaningful Chemini AI activity from the last 30 days.
+            </p>
+        </div>
+
+
+    </div>
+
+    {% if history %}
+
+        <div class="history-list">
+
+        {% for item in history %}
+
+            <article class="history-card">
+
+                <div class="history-card-top">
+
+                    <div class="history-module">
+
+                        <div class="history-icon">
+                            {% if item.module == "AI Assistant" %}
+                                🤖
+                            {% elif item.module == "Experiment Guide" %}
+                                🧪
+                            {% elif item.module == "Safety Checker" %}
+                                🛡️
+                            {% elif item.module == "Green Recommendations" %}
+                                🌿
+                            {% elif item.module == "Chemical Calculator" %}
+                                🧮
+                            {% elif item.module == "Laboratory Safety" %}
+                                🧤
+                            {% else %}
+                                📌
+                            {% endif %}
+                        </div>
+
+                        <div>
+                            <h2>{{ item.module }}</h2>
+                            <span class="history-type">
+                                {% if item.type == "ai_question" %}
+                                    AI Question
+                                {% elif item.type == "calculation" %}
+                                    Calculation
+                                {% elif item.type == "opened" %}
+                                    Opened
+                                {% else %}
+                                    Activity
+                                {% endif %}
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <time class="history-time" datetime="{{ item.created_at }}">
+                        {{ item.time }}
+                    </time>
+
+                </div>
+
+                <div class="history-activity">
+                    {{ item.activity }}
+                </div>
+
+                <div class="history-footer">
+
+                    {% if item.status == "success" %}
+                        <span class="history-status history-status-success">
+                            <i class="fa-solid fa-circle-check"></i>
+                            {{ item.status_message or "The Respond is Given" }}
+                        </span>
+
+                    {% elif item.status == "error" %}
+                        <span class="history-status history-status-error">
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            {{ item.status_message or "The Respond is Getting Error" }}
+                        </span>
+
+                    {% elif item.status == "pending" %}
+                        <span class="history-status history-status-pending">
+                            <i class="fa-solid fa-spinner"></i>
+                            Response Processing
+                        </span>
+
+                    {% elif item.status == "legacy_unknown" %}
+                        <span class="history-status history-status-unknown">
+                            <i class="fa-solid fa-circle-question"></i>
+                            Response status not recorded
+                        </span>
+
+                    {% else %}
+                        <span class="history-status history-status-opened">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            {{ item.status_message or "Opened" }}
+                        </span>
+                    {% endif %}
+
+                </div>
+
+            </article>
+
+        {% endfor %}
+
+        </div>
+
+        <p class="history-retention-note">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            History is automatically removed after 30 days.
+        </p>
+
+    {% else %}
+
+        <div class="history-empty">
+            <div class="history-empty-icon">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+            </div>
+            <h2>No History Yet</h2>
+            <p>
+                Questions, calculations, and meaningful items you open will
+                appear here automatically.
+            </p>
+            <a href="/chatbot" class="history-empty-btn">
+                <i class="fa-solid fa-robot"></i>
+                Ask Chemai
+            </a>
+        </div>
+
+    {% endif %}
+
+</div>
+
+
+
+{% endblock %}

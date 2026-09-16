@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <div class="page-header">
+
+        <h1>🌿 Green Recommendations</h1>
+
+        <p>
+            Discover eco-friendly alternatives for laboratory chemicals.
+        </p>
+
+    </div>
+
+    <div class="experiment-grid">
+
+        {% for chemical in chemicals %}
+
+        <div class="experiment-card">
+
+            <h2>{{ chemical.name }}</h2>
+
+            <p>
+
+                <strong>Alternative:</strong><br>
+
+                {{ chemical.green_alternative }}
+
+            </p>
+
+            <a href="/recommendation/{{ loop.index0 }}">
+                Learn More →
+            </a>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+{% endblock %}

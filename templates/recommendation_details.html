@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <a href="/recommendation" class="back-btn">
+        ← Back to Recommendations
+    </a>
+
+    <div class="page-header">
+
+        <h1>🌿 {{ chemical.name }}</h1>
+
+        <p>Eco-Friendly Recommendation</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>♻️ Recommended Alternative</h2>
+
+        <p>{{ chemical.green_alternative }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>🌍 Why is it Better?</h2>
+
+        <ul>
+            <li>Reduces hazardous chemical usage.</li>
+            <li>Produces less environmental pollution.</li>
+            <li>Supports sustainable laboratory practices.</li>
+            <li>Improves laboratory safety.</li>
+        </ul>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>💡 Green Chemistry Tip</h2>
+
+        <p>
+            Always use the minimum quantity of chemicals required,
+            reuse materials whenever possible, and dispose of
+            laboratory waste responsibly.
+        </p>
+
+    </div>
+
+</div>
+
+{% endblock %}

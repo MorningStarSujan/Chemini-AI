@@ -1,0 +1,95 @@
+{% extends "admin_base.html" %}
+
+{% block admin_content %}
+<section class="admin-page admin-history-page">
+    <header class="admin-page-header admin-history-header">
+        <div>
+            <span class="admin-eyebrow">ADMIN HISTORY</span>
+            <h1>History</h1>
+            <p>Review Chemini AI activity and response outcomes from the last 30 days.</p>
+        </div>
+    </header>
+
+    <div class="admin-history-filters" role="navigation" aria-label="History filters">
+        <a href="/admin/history?filter=all" class="{% if active_filter == 'all' %}active{% endif %}">All</a>
+        <a href="/admin/history?filter=responded" class="{% if active_filter == 'responded' %}active{% endif %}">Responded</a>
+        <a href="/admin/history?filter=not_responded" class="{% if active_filter == 'not_responded' %}active{% endif %}">Not Responded</a>
+    </div>
+
+    {% if history %}
+        <div class="admin-history-list">
+            {% for item in history %}
+                <article class="admin-history-card">
+                    <div class="admin-history-top">
+                        <div class="admin-history-module">
+                            <div class="admin-history-icon">
+                                {% if item.module == "AI Assistant" %}🤖
+                                {% elif item.module == "Experiment Guide" %}🧪
+                                {% elif item.module == "Safety Checker" %}🛡️
+                                {% elif item.module == "Green Recommendations" %}🌿
+                                {% elif item.module == "Chemical Calculator" %}🧮
+                                {% elif item.module == "Laboratory Safety" %}🧤
+                                {% else %}📌{% endif %}
+                            </div>
+                            <div>
+                                <h2>{{ item.module }}</h2>
+                                <span class="admin-history-type">
+                                    {% if item.type == 'ai_question' %}AI Question
+                                    {% elif item.type == 'calculation' %}Calculation
+                                    {% elif item.type == 'opened' %}Opened
+                                    {% else %}Activity{% endif %}
+                                </span>
+                            </div>
+                        </div>
+                        <time datetime="{{ item.created_at }}">{{ item.time }}</time>
+                    </div>
+
+                    <div class="admin-history-actor">
+                        <i class="fa-solid {% if item.actor_type == 'admin' %}fa-shield-halved{% else %}fa-user{% endif %}"></i>
+                        <strong>{{ item.actor_label }}</strong>
+                        {% if item.actor_type == 'admin' %}
+                            <span>Administrator</span>
+                        {% elif item.actor_type == 'legacy' %}
+                            <span>Older record</span>
+                        {% else %}
+                            <span>Anonymous user session</span>
+                        {% endif %}
+                    </div>
+
+                    <div class="admin-history-activity">{{ item.activity }}</div>
+
+                    <div class="admin-history-status-row">
+                        {% if item.status == 'success' %}
+                            <span class="admin-status admin-status-success">
+                                <i class="fa-solid fa-circle-check"></i>
+                                {{ item.status_message or 'The Respond is Given' }}
+                            </span>
+                        {% elif item.status in ['error', 'pending', 'legacy_unknown'] %}
+                            <span class="admin-status admin-status-error">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                {{ item.status_message or 'The Respond is Getting Error' }}
+                            </span>
+                        {% else %}
+                            <span class="admin-status admin-status-opened">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                {{ item.status_message or 'Opened' }}
+                            </span>
+                        {% endif %}
+                    </div>
+                </article>
+            {% endfor %}
+        </div>
+
+        <p class="admin-retention-note">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            History is automatically removed after 30 days.
+        </p>
+    {% else %}
+        <div class="admin-empty-state">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <h2>No matching history</h2>
+            <p>There are no records for this filter in the current 30-day window.</p>
+        </div>
+    {% endif %}
+</section>
+{% endblock %}

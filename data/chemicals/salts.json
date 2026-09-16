@@ -1,0 +1,427 @@
+[
+  {
+    "id": 36,
+    "name": "Sodium Chloride",
+    "formula": "NaCl",
+    "aliases": ["Table Salt"],
+    "category": "Salt",
+    "description": "A common ionic compound widely used in laboratories, food processing, and medical applications.",
+    "uses": [
+      "Laboratory reagent",
+      "Preparation of saline solutions",
+      "Chemical analysis"
+    ],
+    "hazards": [
+      "Generally low hazard"
+    ],
+    "ppe": [
+      "Standard laboratory PPE"
+    ],
+    "storage": "Store in a cool, dry place in a tightly sealed container.",
+    "first_aid": "Follow normal laboratory first-aid procedures.",
+    "disposal": "Dispose according to local laboratory regulations.",
+    "green_alternative": "Already considered environmentally friendly.",
+    "environmental_impact": "Minimal environmental impact under normal use.",
+    "signal_word": "None",
+    "ghs": []
+  },
+  {
+    "id": 37,
+    "name": "Potassium Chloride",
+    "formula": "KCl",
+    "aliases": [],
+    "category": "Salt",
+    "description": "A common inorganic salt used in laboratories, fertilizers, and medical applications.",
+    "uses": [
+      "Laboratory reagent",
+      "Fertilizer production",
+      "Chemical synthesis"
+    ],
+    "hazards": [
+      "Low hazard under normal laboratory conditions"
+    ],
+    "ppe": [
+      "Standard laboratory PPE"
+    ],
+    "storage": "Store in a dry, tightly sealed container.",
+    "first_aid": "Wash exposed area with water if necessary.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Already environmentally acceptable.",
+    "environmental_impact": "Low environmental impact.",
+    "signal_word": "None",
+    "ghs": []
+  },
+  {
+    "id": 38,
+    "name": "Copper Sulfate",
+    "formula": "CuSO₄",
+    "aliases": ["Blue Vitriol"],
+    "category": "Salt",
+    "description": "A blue crystalline salt widely used in laboratories, agriculture, and analytical chemistry.",
+    "uses": [
+      "Chemical analysis",
+      "Laboratory reagent",
+      "Educational demonstrations"
+    ],
+    "hazards": [
+      "Harmful if swallowed",
+      "Very toxic to aquatic life",
+      "Eye irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in tightly sealed containers away from moisture.",
+    "first_aid": "Wash affected area with water and seek medical attention if needed.",
+    "disposal": "Dispose as hazardous chemical waste.",
+    "green_alternative": "Use environmentally safer copper-free alternatives where possible.",
+    "environmental_impact": "Highly toxic to aquatic organisms.",
+    "signal_word": "Warning",
+    "ghs": [
+      "Environment",
+      "Exclamation Mark"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Sodium Sulfate",
+    "formula": "Na₂SO₄",
+    "aliases": ["Glauber's Salt"],
+    "category": "Salt",
+    "description": "A neutral inorganic salt used in laboratories and industrial manufacturing.",
+    "uses": [
+      "Drying agent",
+      "Laboratory reagent",
+      "Glass manufacturing"
+    ],
+    "hazards": [
+      "Low hazard"
+    ],
+    "ppe": [
+      "Standard laboratory PPE"
+    ],
+    "storage": "Store in a cool and dry location.",
+    "first_aid": "Follow normal laboratory first-aid procedures.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Already environmentally acceptable.",
+    "environmental_impact": "Minimal environmental impact.",
+    "signal_word": "None",
+    "ghs": []
+  },
+  {
+    "id": 40,
+    "name": "Potassium Nitrate",
+    "formula": "KNO₃",
+    "aliases": ["Saltpeter"],
+    "category": "Salt",
+    "description": "A nitrate salt commonly used in laboratories and fertilizer production.",
+    "uses": [
+      "Laboratory reagent",
+      "Fertilizer production",
+      "Oxidizing agent"
+    ],
+    "hazards": [
+      "Strong oxidizer",
+      "May intensify fire"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Keep away from combustible materials and heat.",
+    "first_aid": "Flush exposed area with water.",
+    "disposal": "Dispose according to hazardous waste regulations.",
+    "green_alternative": "Use less hazardous oxidizers where practical.",
+    "environmental_impact": "May contribute to nutrient pollution.",
+    "signal_word": "Warning",
+    "ghs": [
+      "Oxidizer"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Ammonium Chloride",
+    "formula": "NH₄Cl",
+    "aliases": ["Sal Ammoniac"],
+    "category": "Salt",
+    "description": "An inorganic salt used in laboratories, batteries, and fertilizers.",
+    "uses": [
+      "Laboratory reagent",
+      "Buffer preparation",
+      "Fertilizer production"
+    ],
+    "hazards": [
+      "Eye irritation",
+      "May cause respiratory irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles"
+    ],
+    "storage": "Store in a cool, dry location.",
+    "first_aid": "Move to fresh air if inhaled and wash affected area with water.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Use less hazardous nitrogen sources where appropriate.",
+    "environmental_impact": "May affect aquatic ecosystems in excessive amounts.",
+    "signal_word": "Warning",
+    "ghs": [
+      "Exclamation Mark"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Calcium Chloride",
+    "formula": "CaCl₂",
+    "aliases": [],
+    "category": "Salt",
+    "description": "A hygroscopic salt commonly used as a drying agent and laboratory reagent.",
+    "uses": [
+      "Drying agent",
+      "Laboratory reagent",
+      "De-icing"
+    ],
+    "hazards": [
+      "Eye irritation",
+      "Skin irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles"
+    ],
+    "storage": "Store in airtight containers to prevent moisture absorption.",
+    "first_aid": "Flush exposed area with water.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Use biodegradable drying agents when applicable.",
+    "environmental_impact": "Low environmental impact under controlled use.",
+    "signal_word": "Warning",
+    "ghs": [
+      "Exclamation Mark"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Magnesium Sulfate",
+    "formula": "MgSO₄",
+    "aliases": ["Epsom Salt"],
+    "category": "Salt",
+    "description": "A naturally occurring salt used in laboratories, medicine, and agriculture.",
+    "uses": [
+      "Laboratory reagent",
+      "Plant nutrient",
+      "Medical applications"
+    ],
+    "hazards": [
+      "Low hazard"
+    ],
+    "ppe": [
+      "Standard laboratory PPE"
+    ],
+    "storage": "Store in a cool, dry location.",
+    "first_aid": "Follow normal laboratory first-aid procedures.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Already environmentally friendly.",
+    "environmental_impact": "Minimal environmental impact.",
+    "signal_word": "None",
+    "ghs": []
+  }
+  ,
+{
+  "id": 44,
+  "name": "Sodium Nitrate",
+  "formula": "NaNO₃",
+  "aliases": ["Chile Saltpeter"],
+  "category": "Salt",
+  "description": "An inorganic nitrate salt commonly used in laboratories, fertilizers, and glass manufacturing.",
+  "uses": [
+    "Laboratory reagent",
+    "Fertilizer production",
+    "Glass manufacturing"
+  ],
+  "hazards": [
+    "Oxidizing agent",
+    "May intensify fire"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store away from combustible materials in a cool, dry place.",
+  "first_aid": "Flush exposed area with water and seek medical advice if irritation occurs.",
+  "disposal": "Dispose according to hazardous waste regulations.",
+  "green_alternative": "Use less hazardous alternatives where practical.",
+  "environmental_impact": "Can contribute to nutrient pollution in water bodies.",
+  "signal_word": "Warning",
+  "ghs": ["Oxidizer"]
+},
+{
+  "id": 45,
+  "name": "Silver Nitrate",
+  "formula": "AgNO₃",
+  "aliases": [],
+  "category": "Salt",
+  "description": "A light-sensitive silver salt widely used in analytical chemistry and microbiology.",
+  "uses": [
+    "Laboratory reagent",
+    "Analytical chemistry",
+    "Microbiology"
+  ],
+  "hazards": [
+    "Oxidizing agent",
+    "Causes severe eye damage",
+    "Very toxic to aquatic life"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store in amber containers away from light.",
+  "first_aid": "Flush exposed area with water for 15 minutes and seek medical attention.",
+  "disposal": "Dispose as hazardous chemical waste.",
+  "green_alternative": "Use less hazardous analytical methods where possible.",
+  "environmental_impact": "Highly toxic to aquatic organisms.",
+  "signal_word": "Danger",
+  "ghs": ["Corrosion", "Environment", "Oxidizer"]
+},
+{
+  "id": 46,
+  "name": "Zinc Sulfate",
+  "formula": "ZnSO₄",
+  "aliases": [],
+  "category": "Salt",
+  "description": "An inorganic salt used in laboratories, agriculture, and pharmaceuticals.",
+  "uses": [
+    "Laboratory reagent",
+    "Micronutrient fertilizer",
+    "Pharmaceutical preparations"
+  ],
+  "hazards": [
+    "Harmful if swallowed",
+    "Very toxic to aquatic life"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles"
+  ],
+  "storage": "Store in tightly sealed containers in a dry place.",
+  "first_aid": "Wash exposed area thoroughly with water.",
+  "disposal": "Dispose according to hazardous waste regulations.",
+  "green_alternative": "Use only the required quantity to minimize waste.",
+  "environmental_impact": "Can be harmful to aquatic ecosystems.",
+  "signal_word": "Warning",
+  "ghs": ["Environment", "Exclamation Mark"]
+},
+{
+  "id": 47,
+  "name": "Ferrous Sulfate",
+  "formula": "FeSO₄",
+  "aliases": ["Iron(II) Sulfate"],
+  "category": "Salt",
+  "description": "An iron salt commonly used in laboratories, medicine, and water treatment.",
+  "uses": [
+    "Laboratory reagent",
+    "Water treatment",
+    "Iron supplement production"
+  ],
+  "hazards": [
+    "Harmful if swallowed"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles"
+  ],
+  "storage": "Store in a cool, dry place away from moisture.",
+  "first_aid": "Seek medical attention if swallowed.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Use only the required amount to reduce waste.",
+  "environmental_impact": "Low environmental impact when properly handled.",
+  "signal_word": "Warning",
+  "ghs": ["Exclamation Mark"]
+},
+{
+  "id": 48,
+  "name": "Ferric Chloride",
+  "formula": "FeCl₃",
+  "aliases": ["Iron(III) Chloride"],
+  "category": "Salt",
+  "description": "A corrosive iron salt widely used for etching and water treatment.",
+  "uses": [
+    "PCB etching",
+    "Water treatment",
+    "Laboratory reagent"
+  ],
+  "hazards": [
+    "Corrosive",
+    "Skin burns",
+    "Eye damage"
+  ],
+  "ppe": [
+    "Chemical-resistant gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store in corrosion-resistant containers away from moisture.",
+  "first_aid": "Flush affected area with water for at least 15 minutes.",
+  "disposal": "Dispose as hazardous waste.",
+  "green_alternative": "Use environmentally safer etching methods where available.",
+  "environmental_impact": "Can harm aquatic organisms if improperly released.",
+  "signal_word": "Danger",
+  "ghs": ["Corrosion"]
+},
+{
+  "id": 49,
+  "name": "Sodium Acetate",
+  "formula": "CH₃COONa",
+  "aliases": [],
+  "category": "Salt",
+  "description": "A sodium salt of acetic acid commonly used in buffers and laboratory experiments.",
+  "uses": [
+    "Buffer preparation",
+    "Laboratory reagent",
+    "Food industry"
+  ],
+  "hazards": [
+    "Low hazard"
+  ],
+  "ppe": [
+    "Standard laboratory PPE"
+  ],
+  "storage": "Store in a cool, dry location.",
+  "first_aid": "Follow standard laboratory first-aid procedures.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Already environmentally acceptable.",
+  "environmental_impact": "Minimal environmental impact.",
+  "signal_word": "None",
+  "ghs": []
+},
+{
+  "id": 50,
+  "name": "Potassium Bromide",
+  "formula": "KBr",
+  "aliases": [],
+  "category": "Salt",
+  "description": "An inorganic bromide salt used in spectroscopy and laboratory analysis.",
+  "uses": [
+    "Infrared spectroscopy",
+    "Laboratory reagent",
+    "Analytical chemistry"
+  ],
+  "hazards": [
+    "Low hazard under normal laboratory use"
+  ],
+  "ppe": [
+    "Standard laboratory PPE"
+  ],
+  "storage": "Store in tightly sealed containers away from moisture.",
+  "first_aid": "Follow standard laboratory first-aid procedures.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Already environmentally acceptable.",
+  "environmental_impact": "Minimal environmental impact.",
+  "signal_word": "None",
+  "ghs": []
+}
+]

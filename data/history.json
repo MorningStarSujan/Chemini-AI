@@ -1,0 +1,41 @@
+[
+    {
+        "id": "history-20260917005043105404",
+        "created_at": "2026-09-17T00:50:43",
+        "time": "17-09-2026 12:50 AM",
+        "module": "AI Assistant",
+        "type": "ai_question",
+        "activity": "Asked: \"can you create an image of atom\"",
+        "status": "success",
+        "status_message": "The Respond is Given",
+        "actor_type": "admin",
+        "actor_id": "admin",
+        "actor_label": "Admin"
+    },
+    {
+        "id": "history-20260917005012206707",
+        "created_at": "2026-09-17T00:50:12",
+        "time": "17-09-2026 12:50 AM",
+        "module": "AI Assistant",
+        "type": "ai_question",
+        "activity": "Asked: \"hello how can you help me\"",
+        "status": "success",
+        "status_message": "The Respond is Given",
+        "actor_type": "admin",
+        "actor_id": "admin",
+        "actor_label": "Admin"
+    },
+    {
+        "id": "history-20260917004857641115",
+        "created_at": "2026-09-17T00:48:57",
+        "time": "17-09-2026 12:48 AM",
+        "module": "AI Assistant",
+        "type": "ai_question",
+        "activity": "Asked: \"hello can you tell me how can you help me\"",
+        "status": "error",
+        "status_message": "The Respond is Getting Error",
+        "actor_type": "admin",
+        "actor_id": "admin",
+        "actor_label": "Admin"
+    }
+]

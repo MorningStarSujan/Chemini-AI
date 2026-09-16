@@ -1,0 +1,197 @@
+[
+  {
+    "id": 94,
+    "name": "Sodium Borohydride",
+    "formula": "NaBH₄",
+    "aliases": [],
+    "category": "Reducing Agent",
+    "description": "A strong reducing agent widely used in organic synthesis.",
+    "uses": [
+      "Organic synthesis",
+      "Reduction reactions",
+      "Laboratory research"
+    ],
+    "hazards": [
+      "Reacts with water",
+      "Flammable hydrogen may be released"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in tightly sealed containers away from moisture.",
+    "first_aid": "Flush exposed area with water and seek medical attention if needed.",
+    "disposal": "Dispose as hazardous chemical waste.",
+    "green_alternative": "Use catalytic hydrogenation where practical.",
+    "environmental_impact": "Can react violently with water if improperly handled.",
+    "signal_word": "Danger",
+    "ghs": ["Flame", "Corrosion"]
+  },
+  {
+    "id": 95,
+    "name": "Lithium Aluminium Hydride",
+    "formula": "LiAlH₄",
+    "aliases": ["LAH"],
+    "category": "Reducing Agent",
+    "description": "A very powerful reducing agent used in advanced organic chemistry.",
+    "uses": [
+      "Organic synthesis",
+      "Reduction of carbonyl compounds"
+    ],
+    "hazards": [
+      "Reacts violently with water",
+      "Fire hazard"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Face shield",
+      "Lab coat"
+    ],
+    "storage": "Store under dry inert atmosphere.",
+    "first_aid": "Seek immediate medical attention after exposure.",
+    "disposal": "Dispose only through approved hazardous waste procedures.",
+    "green_alternative": "Use sodium borohydride when suitable.",
+    "environmental_impact": "Hazardous if improperly handled.",
+    "signal_word": "Danger",
+    "ghs": ["Flame", "Corrosion"]
+  },
+  {
+    "id": 96,
+    "name": "Hydrazine",
+    "formula": "N₂H₄",
+    "aliases": [],
+    "category": "Reducing Agent",
+    "description": "A powerful reducing agent used in laboratories and industry.",
+    "uses": [
+      "Chemical synthesis",
+      "Rocket fuel",
+      "Laboratory research"
+    ],
+    "hazards": [
+      "Highly toxic",
+      "Flammable",
+      "Suspected carcinogen"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Respirator"
+    ],
+    "storage": "Store in tightly sealed containers away from heat.",
+    "first_aid": "Seek immediate medical attention.",
+    "disposal": "Dispose as hazardous waste.",
+    "green_alternative": "Use safer reducing agents whenever possible.",
+    "environmental_impact": "Highly toxic to aquatic life.",
+    "signal_word": "Danger",
+    "ghs": ["Flame", "Health Hazard", "Skull and Crossbones"]
+  },
+  {
+    "id": 97,
+    "name": "Ascorbic Acid",
+    "formula": "C₆H₈O₆",
+    "aliases": ["Vitamin C"],
+    "category": "Reducing Agent",
+    "description": "A mild reducing agent commonly used in laboratories and food chemistry.",
+    "uses": [
+      "Food preservation",
+      "Laboratory reagent",
+      "Antioxidant"
+    ],
+    "hazards": [
+      "Low hazard"
+    ],
+    "ppe": [
+      "Standard laboratory PPE"
+    ],
+    "storage": "Store in a cool, dry place.",
+    "first_aid": "Follow standard laboratory first-aid procedures.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Already considered a green reducing agent.",
+    "environmental_impact": "Minimal environmental impact.",
+    "signal_word": "None",
+    "ghs": []
+  },
+  {
+    "id": 98,
+    "name": "Sodium Sulfite",
+    "formula": "Na₂SO₃",
+    "aliases": [],
+    "category": "Reducing Agent",
+    "description": "A reducing agent used in water treatment and analytical chemistry.",
+    "uses": [
+      "Water treatment",
+      "Chemical analysis",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "May cause eye irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles"
+    ],
+    "storage": "Store in sealed containers in a dry place.",
+    "first_aid": "Flush exposed area with water.",
+    "disposal": "Dispose according to regulations.",
+    "green_alternative": "Use only the required quantity to reduce waste.",
+    "environmental_impact": "Low environmental impact.",
+    "signal_word": "Warning",
+    "ghs": ["Exclamation Mark"]
+  },
+  {
+    "id": 99,
+    "name": "Oxalic Acid",
+    "formula": "H₂C₂O₄",
+    "aliases": [],
+    "category": "Reducing Agent",
+    "description": "An organic acid that also acts as a reducing agent in laboratory reactions.",
+    "uses": [
+      "Cleaning",
+      "Chemical analysis",
+      "Reduction reactions"
+    ],
+    "hazards": [
+      "Harmful if swallowed",
+      "Eye irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles"
+    ],
+    "storage": "Store in tightly sealed containers.",
+    "first_aid": "Flush exposed area with water and seek medical advice.",
+    "disposal": "Dispose according to laboratory regulations.",
+    "green_alternative": "Use citric acid where appropriate.",
+    "environmental_impact": "Low when properly handled.",
+    "signal_word": "Warning",
+    "ghs": ["Exclamation Mark"]
+  },
+  {
+    "id": 100,
+    "name": "Iron Powder",
+    "formula": "Fe",
+    "aliases": [],
+    "category": "Reducing Agent",
+    "description": "A metallic reducing agent commonly used in chemistry laboratories and industrial processes.",
+    "uses": [
+      "Reduction reactions",
+      "Chemical synthesis",
+      "Laboratory experiments"
+    ],
+    "hazards": [
+      "Dust may cause irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles"
+    ],
+    "storage": "Store in a dry place away from moisture.",
+    "first_aid": "Wash exposed area with water.",
+    "disposal": "Recycle where possible or dispose according to regulations.",
+    "green_alternative": "Already widely recyclable.",
+    "environmental_impact": "Low environmental impact.",
+    "signal_word": "Warning",
+    "ghs": ["Exclamation Mark"]
+  }
+]

@@ -1,0 +1,262 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <div class="page-header">
+
+        <h1>🧮 Chemical Calculator</h1>
+
+        <p>
+            Perform common chemistry calculations quickly and accurately.
+        </p>
+
+    </div>
+
+    <!-- Molarity Calculator -->
+
+    <div class="details-card">
+
+        <h2>🧪 Molarity Calculator</h2>
+
+        <form id="molarity-form">
+
+            <input
+                type="number"
+                id="moles"
+                placeholder="Enter Moles"
+                step="any"
+                required
+            >
+
+            <input
+                type="number"
+                id="volume"
+                placeholder="Enter Volume (L)"
+                step="any"
+                required
+            >
+
+            <button type="button" onclick="calculateMolarity()">
+                Calculate
+            </button>
+
+        </form>
+
+        <p id="molarity-result"></p>
+
+    </div>
+
+    <!-- Dilution Calculator -->
+
+    <div class="details-card">
+
+        <h2>⚗️ Dilution Calculator</h2>
+
+        <form id="dilution-form">
+
+            <input
+                type="number"
+                id="c1"
+                placeholder="Initial Concentration (C₁)"
+                step="any"
+                required
+            >
+
+            <input
+                type="number"
+                id="v1"
+                placeholder="Initial Volume (V₁)"
+                step="any"
+                required
+            >
+
+            <input
+                type="number"
+                id="c2"
+                placeholder="Final Concentration (C₂)"
+                step="any"
+                required
+            >
+
+            <button type="button" onclick="calculateDilution()">
+                Calculate
+            </button>
+
+        </form>
+
+        <p id="dilution-result"></p>
+
+    </div>
+
+    <!-- Percentage Calculator -->
+
+    <div class="details-card">
+
+        <h2>📊 Percentage Solution Calculator</h2>
+
+        <form id="percentage-form">
+
+            <input
+                type="number"
+                id="solute"
+                placeholder="Amount of Solute"
+                step="any"
+                required
+            >
+
+            <input
+                type="number"
+                id="solution"
+                placeholder="Total Solution"
+                step="any"
+                required
+            >
+
+            <button type="button" onclick="calculatePercentage()">
+                Calculate
+            </button>
+
+        </form>
+
+        <p id="percentage-result"></p>
+
+    </div>
+
+    <!-- pH Calculator -->
+
+    <div class="details-card">
+
+        <h2>🧫 pH Calculator</h2>
+
+        <form id="ph-form">
+
+            <input
+                type="number"
+                id="hydrogen"
+                placeholder="Hydrogen Ion Concentration (H⁺)"
+                step="any"
+                required
+            >
+
+            <button type="button" onclick="calculatePH()">
+                Calculate
+            </button>
+
+        </form>
+
+        <p id="ph-result"></p>
+
+    </div>
+
+</div>
+
+<script>
+
+function saveHistory(module, activity){
+
+    fetch("/add_history",{
+
+        method:"POST",
+
+        body:new URLSearchParams({
+            module:module,
+            activity:activity,
+            type:"calculation",
+            status:"success",
+            status_message:"Calculation Completed"
+        })
+
+    }).catch(() => {
+        // The calculation result is already displayed locally.
+        // A history logging failure must never disturb the calculator.
+    });
+
+}
+function calculateMolarity(){
+
+    let moles = parseFloat(document.getElementById("moles").value);
+    let volume = parseFloat(document.getElementById("volume").value);
+
+    if(volume > 0){
+
+        let result = moles / volume;
+
+        document.getElementById("molarity-result").innerHTML =
+            "<strong>Molarity:</strong> " + result.toFixed(3) + " mol/L";
+
+        saveHistory(
+            "Chemical Calculator",
+            "Calculated Molarity = " + result.toFixed(3) + " mol/L"
+        );
+
+    }
+
+}
+
+function calculateDilution(){
+
+    let c1 = parseFloat(document.getElementById("c1").value);
+    let v1 = parseFloat(document.getElementById("v1").value);
+    let c2 = parseFloat(document.getElementById("c2").value);
+
+    if(c2 > 0){
+
+        let result = (c1 * v1) / c2;
+
+        document.getElementById("dilution-result").innerHTML =
+            "<strong>Required V₂:</strong> " + result.toFixed(3);
+
+            saveHistory(
+                "Chemical Calculator",
+                "Calculated Dilution V₂ = " + result.toFixed(3)
+            );
+
+    }
+    
+}
+
+function calculatePercentage(){
+
+    let solute = parseFloat(document.getElementById("solute").value);
+    let solution = parseFloat(document.getElementById("solution").value);
+
+    if(solution > 0){
+
+        let result = (solute / solution) * 100;
+
+        document.getElementById("percentage-result").innerHTML =
+            "<strong>Percentage:</strong> " + result.toFixed(2) + "%";
+            saveHistory(
+                "Chemical Calculator",
+                "Calculated Percentage = " + result.toFixed(2) + "%"
+            );
+
+    }
+
+}
+
+function calculatePH(){
+
+    let h = parseFloat(document.getElementById("hydrogen").value);
+
+    if(h > 0){
+
+        let result = -Math.log10(h);
+
+        document.getElementById("ph-result").innerHTML =
+            "<strong>pH:</strong> " + result.toFixed(2);
+
+            saveHistory(
+                "Chemical Calculator",
+                "Calculated pH = " + result.toFixed(2)
+);
+
+    }
+
+}
+
+</script>
+
+{% endblock %}

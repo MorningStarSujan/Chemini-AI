@@ -1,0 +1,423 @@
+[
+  {
+    "id": 21,
+    "name": "Sodium Hydroxide",
+    "formula": "NaOH",
+    "aliases": ["Caustic Soda", "Lye"],
+    "category": "Base",
+    "description": "A strong alkali widely used in laboratories, soap manufacturing, and chemical processing.",
+    "uses": [
+      "Neutralization reactions",
+      "Soap production",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "Highly corrosive",
+      "Causes severe skin burns",
+      "Causes serious eye damage"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in tightly sealed containers away from acids and moisture.",
+    "first_aid": "Flush affected area with water for at least 15 minutes and seek medical attention.",
+    "disposal": "Dispose as hazardous chemical waste according to local regulations.",
+    "green_alternative": "Use milder alkaline cleaners where suitable.",
+    "environmental_impact": "Can increase the pH of water bodies if released untreated.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion"]
+  },
+  {
+    "id": 22,
+    "name": "Potassium Hydroxide",
+    "formula": "KOH",
+    "aliases": ["Caustic Potash"],
+    "category": "Base",
+    "description": "A strong alkali commonly used in laboratories and industrial chemical production.",
+    "uses": [
+      "Chemical synthesis",
+      "Soap production",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "Corrosive",
+      "Severe burns",
+      "Eye damage"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Face shield",
+      "Lab coat"
+    ],
+    "storage": "Store in airtight containers away from acids and moisture.",
+    "first_aid": "Flush with water for at least 15 minutes and obtain medical attention.",
+    "disposal": "Dispose through approved hazardous waste procedures.",
+    "green_alternative": "Use less concentrated alkaline solutions when appropriate.",
+    "environmental_impact": "Can significantly alter aquatic pH.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion"]
+  },
+  {
+    "id": 23,
+    "name": "Calcium Hydroxide",
+    "formula": "Ca(OH)₂",
+    "aliases": ["Slaked Lime", "Hydrated Lime"],
+    "category": "Base",
+    "description": "A moderately strong base used in laboratories, construction, and water treatment.",
+    "uses": [
+      "Water treatment",
+      "Neutralization",
+      "Construction materials"
+    ],
+    "hazards": [
+      "Eye irritation",
+      "Skin irritation"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Dust mask"
+    ],
+    "storage": "Store in a dry, sealed container.",
+    "first_aid": "Wash affected area thoroughly with water.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Often considered an environmentally acceptable treatment chemical when properly used.",
+    "environmental_impact": "Can increase soil and water alkalinity if overused.",
+    "signal_word": "Warning",
+    "ghs": ["Exclamation Mark"]
+  },
+  {
+    "id": 24,
+    "name": "Ammonium Hydroxide",
+    "formula": "NH₄OH",
+    "aliases": ["Aqueous Ammonia"],
+    "category": "Base",
+    "description": "A solution of ammonia in water used in laboratories and cleaning applications.",
+    "uses": [
+      "Cleaning agent",
+      "Laboratory reagent",
+      "Chemical synthesis"
+    ],
+    "hazards": [
+      "Corrosive",
+      "Strong irritating vapors"
+    ],
+    "ppe": [
+      "Gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store tightly closed in a cool, ventilated area.",
+    "first_aid": "Move to fresh air if inhaled and flush exposed skin with water.",
+    "disposal": "Dispose through approved hazardous waste procedures.",
+    "green_alternative": "Use biodegradable cleaning products when suitable.",
+    "environmental_impact": "Can be harmful to aquatic organisms in high concentrations.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion", "Environment"]
+  },
+  {
+    "id": 25,
+    "name": "Magnesium Hydroxide",
+    "formula": "Mg(OH)₂",
+    "aliases": ["Milk of Magnesia"],
+    "category": "Base",
+    "description": "A weak base commonly used as an antacid and in laboratory applications.",
+    "uses": [
+      "Neutralization",
+      "Laboratory reagent",
+      "Pharmaceutical applications"
+    ],
+    "hazards": [
+      "Low hazard under normal laboratory use"
+    ],
+    "ppe": [
+      "Standard laboratory PPE"
+    ],
+    "storage": "Store in tightly closed containers.",
+    "first_aid": "Follow standard laboratory first-aid procedures.",
+    "disposal": "Dispose according to local laboratory regulations.",
+    "green_alternative": "Already considered environmentally friendly in many applications.",
+    "environmental_impact": "Minimal environmental impact when properly handled.",
+    "signal_word": "None",
+    "ghs": []
+  },
+  {
+    "id": 26,
+    "name": "Barium Hydroxide",
+    "formula": "Ba(OH)₂",
+    "aliases": [],
+    "category": "Base",
+    "description": "A strong base used in laboratories and analytical chemistry.",
+    "uses": [
+      "Chemical analysis",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "Toxic if swallowed",
+      "Corrosive"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in tightly sealed containers away from acids.",
+    "first_aid": "Seek immediate medical attention after exposure.",
+    "disposal": "Dispose as hazardous waste.",
+    "green_alternative": "Use less hazardous alkaline compounds where suitable.",
+    "environmental_impact": "Can be toxic to aquatic life.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion", "Skull and Crossbones"]
+  },
+  {
+    "id": 27,
+    "name": "Lithium Hydroxide",
+    "formula": "LiOH",
+    "aliases": [],
+    "category": "Base",
+    "description": "A strong alkali commonly used in battery manufacturing and laboratory research.",
+    "uses": [
+      "Battery production",
+      "Laboratory reagent",
+      "Carbon dioxide absorption"
+    ],
+    "hazards": [
+      "Corrosive",
+      "Skin burns",
+      "Eye damage"
+    ],
+    "ppe": [
+      "Chemical-resistant gloves",
+      "Safety goggles",
+      "Lab coat"
+    ],
+    "storage": "Store in dry airtight containers.",
+    "first_aid": "Flush exposed area with water and seek medical attention.",
+    "disposal": "Dispose through approved hazardous waste facilities.",
+    "green_alternative": "Use less hazardous absorbents when suitable.",
+    "environmental_impact": "Can affect water alkalinity if improperly disposed.",
+    "signal_word": "Danger",
+    "ghs": ["Corrosion"]
+  },
+  {
+    "id": 28,
+    "name": "Sodium Carbonate",
+    "formula": "Na₂CO₃",
+    "aliases": ["Washing Soda", "Soda Ash"],
+    "category": "Base",
+    "description": "A common alkaline salt used in laboratories, cleaning, and water softening.",
+    "uses": [
+      "Water softening",
+      "Cleaning agent",
+      "Laboratory reagent"
+    ],
+    "hazards": [
+      "May cause eye irritation"
+    ],
+    "ppe": [
+      "Safety goggles",
+      "Gloves"
+    ],
+    "storage": "Store in a cool, dry place.",
+    "first_aid": "Rinse exposed area with water.",
+    "disposal": "Dispose according to local regulations.",
+    "green_alternative": "Already widely accepted as an environmentally safer cleaning chemical.",
+    "environmental_impact": "Low environmental impact when properly used.",
+    "signal_word": "Warning",
+    "ghs": ["Exclamation Mark"]
+  }
+,
+{
+  "id": 29,
+  "name": "Sodium Bicarbonate",
+  "formula": "NaHCO₃",
+  "aliases": ["Baking Soda"],
+  "category": "Base",
+  "description": "A mild alkaline compound widely used in laboratories, food processing, and environmental applications.",
+  "uses": [
+    "Neutralization",
+    "Buffer preparation",
+    "Cleaning agent"
+  ],
+  "hazards": [
+    "Low hazard under normal use"
+  ],
+  "ppe": [
+    "Standard laboratory PPE"
+  ],
+  "storage": "Store in a cool, dry place.",
+  "first_aid": "Follow standard laboratory first-aid procedures.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Already considered a green chemical.",
+  "environmental_impact": "Minimal environmental impact.",
+  "signal_word": "None",
+  "ghs": []
+},
+{
+  "id": 30,
+  "name": "Potassium Carbonate",
+  "formula": "K₂CO₃",
+  "aliases": ["Pearl Ash"],
+  "category": "Base",
+  "description": "An alkaline salt used in laboratories, glass manufacturing, and detergents.",
+  "uses": [
+    "Glass production",
+    "Chemical synthesis",
+    "Laboratory reagent"
+  ],
+  "hazards": [
+    "Eye irritation"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles"
+  ],
+  "storage": "Keep container tightly closed in a dry place.",
+  "first_aid": "Flush exposed area with water.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Use milder alkaline cleaners where suitable.",
+  "environmental_impact": "Low environmental impact when properly handled.",
+  "signal_word": "Warning",
+  "ghs": ["Exclamation Mark"]
+},
+{
+  "id": 31,
+  "name": "Calcium Carbonate",
+  "formula": "CaCO₃",
+  "aliases": ["Limestone", "Calcite"],
+  "category": "Base",
+  "description": "A naturally occurring alkaline compound commonly used in laboratories and construction.",
+  "uses": [
+    "Neutralization",
+    "Construction materials",
+    "Laboratory reagent"
+  ],
+  "hazards": [
+    "Low hazard"
+  ],
+  "ppe": [
+    "Safety goggles"
+  ],
+  "storage": "Store in a dry area.",
+  "first_aid": "Wash exposed area with water.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Already environmentally friendly.",
+  "environmental_impact": "Very low environmental impact.",
+  "signal_word": "None",
+  "ghs": []
+},
+{
+  "id": 32,
+  "name": "Magnesium Carbonate",
+  "formula": "MgCO₃",
+  "aliases": [],
+  "category": "Base",
+  "description": "A naturally occurring carbonate used in laboratories and industrial applications.",
+  "uses": [
+    "Laboratory reagent",
+    "Pharmaceutical applications",
+    "Industrial filler"
+  ],
+  "hazards": [
+    "Low hazard"
+  ],
+  "ppe": [
+    "Standard laboratory PPE"
+  ],
+  "storage": "Store in tightly sealed containers.",
+  "first_aid": "Follow standard first-aid procedures.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Already environmentally acceptable.",
+  "environmental_impact": "Minimal environmental impact.",
+  "signal_word": "None",
+  "ghs": []
+},
+{
+  "id": 33,
+  "name": "Sodium Phosphate",
+  "formula": "Na₃PO₄",
+  "aliases": ["Trisodium Phosphate", "TSP"],
+  "category": "Base",
+  "description": "A strong alkaline cleaning and laboratory chemical.",
+  "uses": [
+    "Cleaning agent",
+    "Buffer preparation",
+    "Laboratory reagent"
+  ],
+  "hazards": [
+    "Eye irritation",
+    "Skin irritation"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles"
+  ],
+  "storage": "Store in tightly sealed containers.",
+  "first_aid": "Flush exposed area with water.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Use phosphate-free cleaners where appropriate.",
+  "environmental_impact": "Excess phosphate can contribute to algal blooms.",
+  "signal_word": "Warning",
+  "ghs": ["Exclamation Mark"]
+},
+{
+  "id": 34,
+  "name": "Potassium Phosphate",
+  "formula": "K₃PO₄",
+  "aliases": ["Tripotassium Phosphate"],
+  "category": "Base",
+  "description": "An alkaline phosphate compound used in laboratories and food processing.",
+  "uses": [
+    "Buffer preparation",
+    "Chemical synthesis",
+    "Laboratory reagent"
+  ],
+  "hazards": [
+    "May cause eye irritation"
+  ],
+  "ppe": [
+    "Gloves",
+    "Safety goggles"
+  ],
+  "storage": "Store in a cool, dry place.",
+  "first_aid": "Flush with water if exposed.",
+  "disposal": "Dispose according to local regulations.",
+  "green_alternative": "Use phosphate-free alternatives where practical.",
+  "environmental_impact": "Can contribute to nutrient pollution if released in large quantities.",
+  "signal_word": "Warning",
+  "ghs": ["Exclamation Mark"]
+},
+{
+  "id": 35,
+  "name": "Sodium Metasilicate",
+  "formula": "Na₂SiO₃",
+  "aliases": ["Water Glass"],
+  "category": "Base",
+  "description": "A strongly alkaline silicate used in detergents, cleaning products, and laboratories.",
+  "uses": [
+    "Industrial cleaner",
+    "Laboratory reagent",
+    "Corrosion inhibitor"
+  ],
+  "hazards": [
+    "Corrosive",
+    "Skin irritation",
+    "Eye damage"
+  ],
+  "ppe": [
+    "Chemical-resistant gloves",
+    "Safety goggles",
+    "Lab coat"
+  ],
+  "storage": "Store in tightly sealed containers away from acids.",
+  "first_aid": "Flush exposed area with water for at least 15 minutes.",
+  "disposal": "Dispose as hazardous waste according to regulations.",
+  "green_alternative": "Use biodegradable cleaning products where appropriate.",
+  "environmental_impact": "May increase water alkalinity if improperly released.",
+  "signal_word": "Danger",
+  "ghs": ["Corrosion"]
+}
+]

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="page-container">
+
+    <a href="/safety" class="back-btn">
+        ← Back to Safety
+    </a>
+
+    <div class="page-header">
+
+        <h1>{{ rule.icon }} {{ rule.title }}</h1>
+
+        <p>{{ rule.category }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>📖 Description</h2>
+
+        <p>{{ rule.description }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>✅ Prevention</h2>
+
+        <p>{{ rule.prevention }}</p>
+
+    </div>
+
+    <div class="details-card">
+
+        <h2>🚨 Emergency Response</h2>
+
+        <p>{{ rule.emergency }}</p>
+
+    </div>
+
+</div>
+
+{% endblock %}
